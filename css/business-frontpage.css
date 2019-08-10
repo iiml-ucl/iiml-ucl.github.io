@@ -84,6 +84,11 @@ div.members {
   padding-top: 20px;
 }
 
+div.project-card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 div.member {
   padding-top: 10px;
 }
@@ -124,4 +129,10 @@ i.social-media-white-bg{
     padding: 0;
     height: 100%;
     width: 100%;
+}
+
+
+.footer {
+  z-index: 1000;
+  position: fixed;
 }
