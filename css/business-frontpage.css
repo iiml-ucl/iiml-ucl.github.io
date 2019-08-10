@@ -87,6 +87,10 @@ div.members {
 div.member {
   padding-top: 10px;
 }
+div.publication {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 img.member-image{
   padding-bottom: 10px;
