@@ -87,3 +87,37 @@ div.members {
 div.member {
   padding-top: 10px;
 }
+
+img.member-image{
+  padding-bottom: 10px;
+}
+
+i.social-media-white-bg:hover{
+  color:gray;
+}
+
+i.social-media-white-bg{
+  color:black;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size:3em
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
