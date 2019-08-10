@@ -36,16 +36,34 @@
             <a class="nav-link" href="../index.html">Home
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Members
-              <span class="sr-only">(current)</span>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Members
             </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#principal-investigator">Principal Investigator</a>
+              <a class="dropdown-item" href="#phds">PhD Students</a>
+              <a class="dropdown-item" href="#postdocs">Postdocs</a>
+              <a class="dropdown-item" href="#alumni">Alumni</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../publications.html">Publications</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../publications.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Publications
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../publications.html#2019">2019</a>
+              <a class="dropdown-item" href="../publications.html#2018">2018</a>
+              <a class="dropdown-item" href="../publications.html#2017">2017</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../projects/projects.html">Projects</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../projects/projects.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="../project/projects.html#project1">Project #1</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../openings.html">Openings</a>
@@ -73,13 +91,96 @@
   <div class="container" style="padding: 20px;">
     <div class="col-md-12">
 
-    <div class="row">
+    <div class="row" id="principal-investigator">
         <div class="col-md-12">
         <h2>Principal Investigator</h2>
         <hr>
         </div>
     </div>
     <div class="row">
+      <div class="col-md-4 col-lg-4 member">
+      <div class="card h-100">
+        <a href="rodrigues.html">
+          <img class="card-img-top member-img" src="http://placehold.it/100x120" alt="">
+        </a>
+        <div class="card-body">
+          <h4 class="card-title">Name</h4>
+          <h5 class="card-subtitle">Position</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+        </div>
+        <div class="card-footer text-center">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fab fa-twitter"></i>
+                         </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fab fa-linkedin"></i>
+                         </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fab fa-github"></i>
+                         </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fas fa-graduation-cap"></i>
+                         </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="row members" id="postdocs">
+        <div class="col-md-12">
+        <h2>Postdocs</h2>
+        <hr>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-lg-4 member">
+      <div class="card h-100">
+          <a href="ferianc.html">
+            <img class="card-img-top member-img" src="http://placehold.it/100x120" alt="">
+          </a>
+
+        <div class="card-body">
+          <h4 class="card-title">Name</h4>
+          <h5 class="card-subtitle">Position</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+        </div>
+        <div class="card-footer text-center">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fab fa-twitter"></i>
+                         </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fab fa-linkedin"></i>
+                         </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fab fa-github"></i>
+                         </a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="">
+                         <i class="fas fa-graduation-cap"></i>
+                         </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
       <div class="col-md-4 col-lg-4 member">
       <div class="card h-100">
         <a href="#">
@@ -116,11 +217,11 @@
         </div>
       </div>
       </div>
-    </div>
+      </div>
 
-    <div class="row members">
+    <div class="row members" id="phds">
         <div class="col-md-12">
-        <h2>Team</h2>
+        <h2>PhD Students</h2>
         <hr>
         </div>
     </div>
@@ -203,7 +304,7 @@
 
 
 
-    <div class="row members">
+    <div class="row members" id="alumni">
         <div class="col-md-12">
         <h2>Alumni</h2>
         <hr>
@@ -300,8 +401,10 @@
         </li>
       </ul>
       </div>
-      <p class="m-0 text-center text-white">Copyright &copy; IPML 2019-present. For any errors contact <a href="mailto:ferianc.martin@gmail.com?Subject=Error%20GP" target="_top">Martin Ferianc</a></p>
+      <p class="m-0 text-center text-white">Copyright &copy; IP|ML 2019-present. For any errors contact <a href="mailto:ferianc.martin@gmail.com?Subject=Error%20GP" target="_top">Martin Ferianc</a></p>
     </div>
+  </div>
+
     <!-- /.container -->
   </footer>
 
