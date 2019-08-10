@@ -8,50 +8,82 @@ body {
 }
 
 body {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
-.sidebar-nav {
-  padding: 9px 0;
+
+
+.member-img {
+  opacity: 1;
 }
 
-.dropdown-menu .sub-menu {
-  left: 100%;
-  position: absolute;
-  top: 0;
-  visibility: hidden;
-  margin-top: -1px;
+.member-img:hover {
+  opacity: 0.5;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  background: rgba(116,185,255, 0.9);
 }
 
-.dropdown-menu li:hover .sub-menu {
-  visibility: visible;
+
+hr.white {
+  border-top: 1px solid white;
 }
 
-.dropdown:hover .dropdown-menu {
+.footer-main {
+     padding: 1em;
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 2em;
+  line-height: 40px;
   display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: black;
+  outline: none;
 }
 
-.nav-tabs .dropdown-menu,
-.nav-pills .dropdown-menu,
-.navbar .dropdown-menu {
-  margin-top: 0;
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  color: gray;
 }
 
-.navbar .sub-menu:before {
-  border-bottom: 7px solid transparent;
-  border-left: none;
-  border-right: 7px solid rgba(0, 0, 0, 0.2);
-  border-top: 7px solid transparent;
-  left: -7px;
-  top: 10px;
+ul.social-media {
+  margin-bottom: 0;
 }
 
-.navbar .sub-menu:after {
-  border-top: 6px solid transparent;
-  border-left: none;
-  border-right: 6px solid #fff;
-  border-bottom: 6px solid transparent;
-  left: 10px;
-  top: 11px;
-  left: -6px;
+ul.social-media li a {
+  font-size: 3em;
+  line-height: 40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  outline: none;
+}
+
+ul.social-media li a:active, ul.social-media li a:focus, ul.social-media li a:hover {
+  color: gray;
+}
+
+div.members {
+  padding-top: 20px;
+}
+
+div.member {
+  padding-top: 10px;
 }
