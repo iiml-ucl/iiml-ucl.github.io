@@ -12,6 +12,20 @@ body {
 }
 
 
+.bg-primary {
+  background-color: #b6bb3c !important;
+  border-color: #b6bb3c !important;
+}
+
+.btn-primary {
+  background-color: #b6bb3c !important;
+  border-color: #b6bb3c !important;
+}
+
+hr {
+  border-top: 1px solid #b6bb3c;
+}
+
 
 .member-img {
   opacity: 1;
