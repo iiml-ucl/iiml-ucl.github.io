@@ -11,6 +11,18 @@ body {
   padding-bottom: 0px;
 }
 
+.sticky-offset {
+    top: 56px;
+}
+
+.nobull {
+  list-style-type: none;
+ }
+
+ div.publication-text {
+   padding-top: 10px;
+ }
+
 
 .bg-primary {
   background-color: #b6bb3c !important;

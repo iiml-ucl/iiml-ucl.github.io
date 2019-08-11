@@ -93,6 +93,18 @@
   <!-- Page Content -->
   <div class="container">
     <div class="row">
+      <div id="sidebar-container" class="sidebar-expanded col-1 d-2 d-md-block" style="position:sticky;">
+        <ul class="nobull list-group sticky-top sticky-offset">
+                <li class="nav-item">
+                  <a class="nav-link" href="#2019"><h4>2019</h4>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#2018"><h4>2018</h4>
+                  </a>
+                </li>
+              </ul>
+      </div>
       <div class="col offset-2" id="main">
         <div class="row">
           <div id = "2019" class="col-md-12 mb-5">
@@ -106,7 +118,7 @@
               <div class="col-md-4">
                   <img class="img-fluid" src="http://placehold.it/400x200" alt="">
               </div>
-                <div class="col-md-8">
+                <div class="col-md-8 publication-text">
                   <h6>Title</h6>
                   <h7>Authors</h7>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
@@ -118,7 +130,7 @@
               <div class="col-md-4">
                   <img class="img-fluid" src="http://placehold.it/400x200" alt="">
               </div>
-                <div class="col-md-8">
+                <div class="col-md-8 publication-text">
                   <h6>Title</h6>
                   <h7>Authors</h7>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
@@ -141,7 +153,7 @@
               <div class="col-md-4">
                   <img class="img-fluid" src="http://placehold.it/400x200" alt="">
               </div>
-                <div class="col-md-8">
+                <div class="col-md-8 publication-text">
                   <h6>Title</h6>
                   <h7>Authors</h7>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
@@ -153,7 +165,7 @@
               <div class="col-md-4">
                   <img class="img-fluid" src="http://placehold.it/400x200" alt="">
               </div>
-                <div class="col-md-8">
+                <div class="col-md-8 publication-text">
                   <h6>Title</h6>
                   <h7>Authors</h7>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
@@ -167,22 +179,6 @@
 
 
       </div>
-
-      <div id="sticky-sidebar" class="col-lg-1 position-fixed" data-spy="affix" data-offset-top="80" data-offset-bottom="345">
-            <div class="sticky-top">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#2019"><h4>2019</h4>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#2018"><h4>2018</h4>
-                  </a>
-                </li>
-              </ul>
-            </div>
-      </div>
-
     </div>
   </div>
   <!-- /.container -->
@@ -210,7 +206,7 @@
             <a href="mailto:#">name@example.com</a>
           </address>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 publication-text">
             <div class="iframe-container">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.469740068409!2d-0.13443164843152092!3d51.52294357953778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e55337341%3A0x8a933951834e7ff8!2sUCL+Engineering!5e0!3m2!1sen!2suk!4v1565431817998!5m2!1sen!2suk" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
