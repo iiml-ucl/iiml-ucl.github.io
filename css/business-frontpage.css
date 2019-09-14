@@ -74,11 +74,11 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 40px;
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
