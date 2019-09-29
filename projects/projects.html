@@ -20,9 +20,20 @@
 
   <link rel='icon' href='imgs/favicon.ico' type='image/x-icon' sizes="16x16" />
 
-
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+  </script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
+
+<script> 
+$(function(){
+$("#footer").load("../footer.html"); 
+});
+</script> 
 
 <body>
 
@@ -116,64 +127,8 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <div class="row text-white">
-        <div class="col-md-6 mb-5">
-          <h2>Where to Find Us</h2>
-          <hr class="white">
-          <div class="row">
-          <div class="col-md-4">
-            <address>
-            <strong>Start Bootstrap</strong>
-            <br>3481 Melrose Place
-            <br>Beverly Hills, CA 90210
-            <br>
-          </address>
-          <address>
-            <abbr title="Phone">P:</abbr>
-            (123) 456-7890
-            <br>
-            <abbr title="Email">E:</abbr>
-            <a href="mailto:#">name@example.com</a>
-          </address>
-          </div>
-          <div class="col-md-8">
-            <div class="iframe-container">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.469740068409!2d-0.13443164843152092!3d51.52294357953778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e55337341%3A0x8a933951834e7ff8!2sUCL+Engineering!5e0!3m2!1sen!2suk!4v1565431817998!5m2!1sen!2suk" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          </div>
-          </div>
-        </div>
-      <!-- /.row -->
-      <div class="col-md-6 mb-5">
-      <h2>Social Media</h2>
-      <hr class="white">
-      <ul class="list-inline social-media">
-        <li class="list-inline-item">
-          <a target="_blank" href="">
-                     <i class="fab fa-twitter"></i>
-                     </a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" href="https://github.com/ipml-ucl">
-                     <i class="fab fa-github"></i>
-                     </a>
-        </li>
-      </ul>
-      <hr class="white">
-      <a href="https://www.ucl.ac.uk/electronic-electrical-engineering/" target="_blank">
-        <img src="../imgs/ucl_logo.png" style="max-width:300px;" class="img-fluid">
-      </a>
-      </div>
-      <p class="m-0 text-center text-white">Copyright &copy; IP|ML 2019-present. For any errors contact <a href="mailto:ferianc.martin@gmail.com?Subject=Error%20GP" target="_top">Martin Ferianc</a></p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="../vendor/jquery/jquery.min.js"></script>
-  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <div id="footer">
+  </div>
 
 </body>
 
