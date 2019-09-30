@@ -22,20 +22,18 @@
 
 
 
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
   </script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
-<script> 
-$(function(){
-$("#footer").load("footer.html"); 
-});
-</script> 
+<script>
+  $(function () {
+    $("#footer").load("footer.html");
+  });
+</script>
 
 <body>
 
@@ -43,7 +41,8 @@ $("#footer").load("footer.html");
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">IP|ML at UCL</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -53,7 +52,8 @@ $("#footer").load("footer.html");
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Members
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -64,7 +64,8 @@ $("#footer").load("footer.html");
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="projects/projects.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="projects/projects.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -72,13 +73,17 @@ $("#footer").load("footer.html");
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link active dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Publications
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="publications.html#2020">2020</a>
               <a class="dropdown-item" href="publications.html#2019">2019</a>
               <a class="dropdown-item" href="publications.html#2018">2018</a>
               <a class="dropdown-item" href="publications.html#2017">2017</a>
+              <a class="dropdown-item" href="publications.html#2016">2016</a>
+              <a class="dropdown-item" href="publications.html#Older">Older</a>
             </div>
           </li>
           <li class="nav-item">
@@ -113,107 +118,376 @@ $("#footer").load("footer.html");
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-          <h4>Latest News</h4>
-          <hr>
-          <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium non, cumque, aut possimus obcaecati quisquam odit placeat aperiam, voluptatum molestiae voluptatem ipsam assumenda maiores temporibus necessitatibus sequi incidunt. Et, saepe.</p>
+        <h4>Latest News</h4>
+        <hr>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium non, cumque, aut possimus obcaecati
+          quisquam odit placeat aperiam, voluptatum molestiae voluptatem ipsam assumenda maiores temporibus
+          necessitatibus sequi incidunt. Et, saepe.</p>
       </div>
 
     </div>
     <div class="row">
       <div id="sidebar-container" class="sidebar-expanded col-1 d-1 d-md-block" style="position:sticky;">
         <ul class="nobull list-group sticky-top sticky-offset">
-                <li class="nav-item">
-                  <a class="nav-link" href="#2019"><h4>2019</h4>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#2018"><h4>2018</h4>
-                  </a>
-                </li>
-              </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#2020">
+              <h4>2020</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2019">
+              <h4>2019</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2018">
+              <h4>2018</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2017">
+              <h4>2017</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2016">
+              <h4>2016</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#older">
+              <h4>Older</h4>
+            </a>
+          </li>
+        </ul>
       </div>
       <div class="col offset-1" id="main">
         <div class="row">
-          <div id = "2019" class="col-md-12 mb-5">
+          <div id="2020" class="col-md-12 mb-5">
+            <h2>2020</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="mrd2020" class="row publication">
+              <div class="col-md-4">
+                <a href="https://www.amazon.com/Information-Theoretic-Methods-Science-Miguel-Rodrigues/dp/1108427138"
+                  target="_blank"><img class="img-fluid" src="publications/2020/mrd2020.jpg" alt=""></a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> Information-Theoretic Methods in Data Science<br>
+                <strong>Authors:</strong> Rodrigues, M. R. D. and Eldar, Y. C.<br>
+                <strong>Journal/Conference:</strong> Cambridge University Press<br>
+                <p> <strong>Abstract:</strong> Learn about the state-of-the-art at the interface between information
+                  theory and data science with
+                  this first unified treatment of the subject. Written by leading experts in a clear, tutorial style,
+                  and using consistent notation and definitions throughout, it shows how information-theoretic methods
+                  are being used in data acquisition, data representation, data analysis, and statistics and machine
+                  learning. Coverage is broad, with chapters on signal acquisition, data compression, compressive
+                  sensing, data communication, representation learning, emerging topics in statistics, and much more.
+                  Each chapter includes a topic overview, definition of the key problems, emerging and open problems,
+                  and an extensive reference list, allowing readers to develop in-depth knowledge and understanding.
+                  Providing a thorough survey of the current research area and cutting-edge trends, this is essential
+                  reading for graduate students and researchers working in information theory, signal processing,
+                  machine learning, and statistics.</p>
+                <a href="https://www.amazon.com/Information-Theoretic-Methods-Science-Miguel-Rodrigues/dp/1108427138"
+                  target="_blank"><strong>Link</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="2019" class="col-md-12 mb-5" style="padding-top: 20px">
             <h2>2019</h2>
             <hr>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <div class="row publication">
+            <div id="z2019sci" class="row publication">
               <div class="col-md-4">
-                  <img class="img-fluid" src="http://placehold.it/400x200" alt="">
+                <a href="https://advances.sciencemag.org/content/5/8/eaaw7416" target="_blank"><img class="img-fluid"
+                    src="publications/2019/z2019sci.jpg" alt=""></a>
               </div>
-                <div class="col-md-8 publication-text">
-                  <h6>Title</h6>
-                  <h7>Authors</h7>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                  <h7>Presnted At</h7>
-                </div>
-            </div>
-
-            <div class="row publication">
-              <div class="col-md-4">
-                  <img class="img-fluid" src="http://placehold.it/400x200" alt="">
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> Artificial intelligence for art investigation: Meeting the challenge of
+                separating x-ray images of the Ghent Altarpiece<br>
+                <strong>Authors:</strong> Z. Sabetsarvestani, B. Sober, C. Higgitt, I. Daubechies, M. R. D.
+                Rodrigues<br>
+                <strong>Journal/Conference:</strong> Science Advances<br>
+                <p> <strong>Abstract:</strong> X-ray images of polyptych wings, or other artworks painted on both sides
+                  of their support, contain in one image content from both paintings, making them difficult for experts
+                  to “read.” To improve the utility of these x-ray images in studying these artworks, it is desirable to
+                  separate the content into two images, each pertaining to only one side. This is a difficult task for
+                  which previous approaches have been only partially successful. Deep neural network algorithms have
+                  recently achieved remarkable progress in a wide range of image analysis and other challenging tasks.
+                  We, therefore, propose a new self-supervised approach to this x-ray separation, leveraging an
+                  available convolutional neural network architecture; results obtained for details from the Adam and
+                  Eve panels of the Ghent Altarpiece spectacularly improve on previous attempts.</p>
+                <a href="https://advances.sciencemag.org/content/5/8/eaaw7416" target="_blank"><strong>Link</strong></a>
               </div>
-                <div class="col-md-8 publication-text">
-                  <h6>Title</h6>
-                  <h7>Authors</h7>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                  <h7>Presnted At</h7>
-                </div>
             </div>
-
-          </div>
-        </div>
-
-        <div class="row">
-          <div id = "2018" class="col-md-12 mb-5">
-            <h2>2018</h2>
-            <hr>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <div class="row publication">
+            <div id="song2019ieee1" class="row publication">
               <div class="col-md-4">
-                  <img class="img-fluid" src="http://placehold.it/400x200" alt="">
+                <a href="https://ieeexplore.ieee.org/abstract/document/8715417" target="_blank"><img class="img-fluid"
+                    src="publications/2019/song2019ieee1.png" alt=""></a>
               </div>
-                <div class="col-md-8 publication-text">
-                  <h6>Title</h6>
-                  <h7>Authors</h7>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                  <h7>Presnted At</h7>
-                </div>
-            </div>
-
-            <div class="row publication">
-              <div class="col-md-4">
-                  <img class="img-fluid" src="http://placehold.it/400x200" alt="">
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> Multimodal Image Super-resolution via Joint Sparse Representations induced by
+                Coupled Dictionaries<br>
+                <strong>Authors:</strong> P. Song, X. Deng, J. F. C. Mota, N. Deligiannis, P.-L. Dragotti, and M. R. D.
+                Rodrigues<br>
+                <strong>Journal/Conference:</strong> IEEE Transactions on Computational Imaging<br>
+                <p> <strong>Abstract:</strong> Real-world data processing problems often involve various image
+                  modalities associated with a certain scene, including RGB images, infrared images or multi-spectral
+                  images. The fact that different image modalities often share certain attributes, such as edges,
+                  textures and other structure primitives, represents an opportunity to enhance various image processing
+                  tasks. This paper proposes a new approach to construct a high-resolution (HR) version of a
+                  low-resolution (LR) image given another HR image modality as guidance, based on joint sparse
+                  representations induced by coupled dictionaries. The proposed approach captures complex dependency
+                  correlations, including similarities and disparities, between different image modalities in a learned
+                  sparse feature domain in lieu of the original image domain. It consists of two phases: coupled
+                  dictionary learning phase and coupled super-resolution phase. The learning phase learns a set of
+                  dictionaries from the training dataset to couple different image modalities together in the sparse
+                  feature domain. In turn, the super-resolution phase leverages such dictionaries to construct a HR
+                  version of the LR target image with another related image modality for guidance. In the advanced
+                  version of our approach, multi-stage strategy and neighbourhood regression concept are introduced to
+                  further improve the model capacity and performance. Extensive guided image super-resolution
+                  experiments on real multimodal images demonstrate that the proposed approach admits distinctive
+                  advantages with respect to the state-of-the-art approaches, for example, overcoming the texture
+                  copying artifacts commonly resulting from inconsistency between the guidance and target images. Of
+                  particular relevance, the proposed model demonstrates much better robustness than competing deep
+                  models in a range of noisy scenarios.</p>
+                <a href="https://ieeexplore.ieee.org/abstract/document/8715417"
+                  target="_blank"><strong>Link</strong></a>
               </div>
-                <div class="col-md-8 publication-text">
-                  <h6>Title</h6>
-                  <h7>Authors</h7>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                  <h7>Presnted At</h7>
-                </div>
             </div>
-
           </div>
         </div>
-
-
-
+        <div class="row">
+          <div class="col-md-12">
+            <div id="deng2019ieee" class="row publication">
+              <div class="col-md-4">
+                <a href="https://ieeexplore.ieee.org/abstract/document/8741062" target="_blank"><img class="img-fluid"
+                    src="publications/2019/deng2019ieee.png" alt=""></a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> RADAR: Robust Algorithm for Depth Image Super Resolution Based on FRI Theory and
+                Multimodal Dictionary Learning<br>
+                <strong>Authors:</strong> X. Deng, P. Song, M. R. D. Rodrigues, and P.-L. Dragotti<br>
+                <strong>Journal/Conference:</strong> IEEE Transactions on Circuits and Systems for Video Technology<br>
+                <p> <strong>Abstract:</strong> Depth image super-resolution is a challenging problem, since normally
+                  high upscaling factors are required (e.g., 16×), and depth images are often noisy. In order to achieve
+                  large upscaling factors and resilience to noise, we propose a Robust Algorithm for Depth imAge super
+                  Resolution (RADAR) that combines the power of finite rate of innovation (FRI) theory with multimodal
+                  dictionary learning. Given a low-resolution (LR) depth image, we first model its rows and columns as
+                  piece-wise polynomials and propose a FRI-based depth upscaling (FDU) algorithm to super-resolve the
+                  image. Then, the upscaled moderate quality (MQ) depth image is further enhanced with the guidance of a
+                  registered high-resolution (HR) intensity image. This is achieved by learning multimodal mappings from
+                  the joint MQ depth and HR intensity pairs to the HR depth, through a recently proposed triple
+                  dictionary learning (TDL) algorithm. Moreover, to speed up the super-resolution process, we introduce
+                  a new projection-based rapid upscaling (PRU) technique that pre-calculates the projections from the
+                  joint MQ depth and HR intensity pairs to the HR depth. Compared with state-of-the-art deep learning
+                  based methods, our approach has two distinct advantages: we need a fraction of training data but can
+                  achieve the best performance, and we are resilient to mismatches between training and testing
+                  datasets. Extensive numerical results show that the proposed method outperforms other state-of-the-art
+                  methods on either noise-free or noisy datasets with large upscaling factors up to 16× and can handle
+                  unknown blurring kernels well.</p>
+                <a href="https://ieeexplore.ieee.org/abstract/document/8741062"
+                  target="_blank"><strong>Link</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="shlezinger2019ieee" class="row publication">
+              <div class="col-md-4">
+                <a href="https://arxiv.org/abs/1811.10077" target="_blank"><img class="img-fluid"
+                    src="publications/2019/shlezinger2019ieee1.png" alt=""></a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> Asymptotic Task-Based Quantization with Application to Massive MIMO<br>
+                <strong>Authors:</strong> N. Shlezinger, Y. C. Eldar, and M. R. D. Rodrigues<br>
+                <strong>Journal/Conference:</strong> IEEE Transactions on Signal Processing<br>
+                <p> <strong>Abstract:</strong> Quantizers take part in nearly every digital signal
+                  processing system which operates on physical signals. They are
+                  commonly designed to accurately represent the underlying signal,
+                  regardless of the specific task to be performed on the quantized
+                  data. In systems working with high-dimensional signals, such
+                  as massive multiple-input multiple-output (MIMO) systems, it is
+                  beneficial to utilize low-resolution quantizers, due to cost, power,
+                  and memory constraints. In this work we study quantization of
+                  high-dimensional inputs, aiming at improving performance under
+                  resolution constraints by accounting for the system task in the
+                  quantizers design. We focus on the task of recovering a desired signal statistically related to the
+                  high-dimensional input, and analyze
+                  two quantization approaches: We first consider vector quantization, which is typically computationally
+                  infeasible, and characterize
+                  the optimal performance achievable with this approach. Next, we
+                  focus on practical systems which utilize hardware-limited scalar
+                  uniform analog-to-digital converters (ADCs), and design a taskbased quantizer under this model. The
+                  resulting system accounts
+                  for the task by linearly combining the observed signal into a lower
+                  dimension prior to quantization. We then apply our proposed
+                  technique to channel estimation in massive MIMO networks. Our
+                  results demonstrate that a system utilizing low-resolution scalar
+                  ADCs can approach the optimal channel estimation performance
+                  by properly accounting for the task in the system design.</p>
+                <a href="https://arxiv.org/abs/1811.10077" target="_blank"><strong>Link</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="shlezinger2019ieee" class="row publication">
+              <div class="col-md-4">
+                <a href="https://arxiv.org/abs/1807.08305" target="_blank"><img class="img-fluid"
+                    src="publications/2019/shlezinger2019ieee2.png" alt=""></a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> Hardware-Limited Task-Based Quantization<br>
+                <strong>Authors:</strong> N. Shlezinger, Y. C. Eldar, and M. R. D. Rodrigues<br>
+                <strong>Journal/Conference:</strong> IEEE Transactions on Signal Processing<br>
+                <p> <strong>Abstract:</strong> Quantization plays a critical role in digital signal processing systems.
+                  Quantizers are typically
+                  designed to obtain an accurate digital representation of the input signal, operating independently of
+                  the system task, and are commonly implemented using serial scalar analog-to-digital converters (ADCs).
+                  In this work, we study hardware-limited task-based quantization, where a system utilizing a serial
+                  scalar
+                  ADC is designed to provide a suitable representation in order to allow the recovery of a parameter
+                  vector
+                  underlying the input signal. We propose hardware-limited task-based quantization systems for a fixed
+                  and
+                  finite quantization resolution, and characterize their achievable distortion. We then apply the
+                  analysis to
+                  the practical setups of channel estimation and eigen-spectrum recovery from quantized measurements.
+                  Our
+                  results illustrate that properly designed hardware-limited systems can approach the optimal
+                  performance
+                  achievable with vector quantizers, and that by taking the underlying task into account, the
+                  quantization
+                  error can be made negligible with a relatively small number of bits.</p>
+                <a href="https://arxiv.org/abs/1807.08305" target="_blank"><strong>Link</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="song2019ieee2" class="row publication">
+              <div class="col-md-4">
+                <a href="https://ieeexplore.ieee.org/abstract/document/8786180" target="_blank"><img class="img-fluid"
+                    src="publications/2019/song2019ieee2.png" alt=""></a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> Coupled Dictionary Learning for Multi-contrast MRI Reconstruction<br>
+                <strong>Authors:</strong> P. Song, L. Weizmann, J. M. C. Mota, Y. Eldar, and M. R. D. Rodrigues<br>
+                <strong>Journal/Conference:</strong> IEEE Transactions on Medical Imaging<br>
+                <p> <strong>Abstract:</strong> Magnetic resonance (MR) imaging tasks often involve multiple contrasts,
+                  such as T1-weighted, T2-weighted and Fluid-attenuated inversion recovery (FLAIR) data. These contrasts
+                  capture information associated with the same underlying anatomy and thus exhibit similarities in
+                  either structure level or gray level. In this paper, we propose a Coupled Dictionary Learning based
+                  multi-contrast MRI reconstruction (CDLMRI) approach to leverage the dependency correlation between
+                  different contrasts for guided or joint reconstruction from their under-sampled k-space data. Our
+                  approach iterates between three stages: coupled dictionary learning, coupled sparse denoising, and
+                  enforcing k-space consistency. The first stage learns a set of dictionaries that not only are adaptive
+                  to the contrasts, but also capture correlations among multiple contrasts in a sparse transform domain.
+                  By capitalizing on the learned dictionaries, the second stage performs coupled sparse coding to remove
+                  the aliasing and noise in the corrupted contrasts. The third stage enforces consistency between the
+                  denoised contrasts and the measurements in the k-space domain. Numerical experiments, consisting of
+                  retrospective under-sampling of various MRI contrasts with a variety of sampling schemes, demonstrate
+                  that CDLMRI is capable of capturing structural dependencies between different contrasts. The learned
+                  priors indicate notable advantages in multi-contrast MR imaging and promising applications in
+                  quantitative MR imaging such as MR fingerprinting.</p>
+                <a href="https://ieeexplore.ieee.org/abstract/document/8786180"
+                  target="_blank"><strong>Link</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="song2019med" class="row publication">
+              <div class="col-md-12 publication-text">
+                <strong>Title:</strong> HYDRA: Hybrid Deep Magnetic Resonance Fingerprinting<br>
+                <strong>Authors:</strong> P. Song, G. Mazor, Y. C. Eldar, and M. R. D. Rodrigues<br>
+                <strong>Journal/Conference:</strong> Medical Physics<br>
+                <p> <strong>Abstract:</strong> PURPOSE:
+                  Magnetic resonance fingerprinting (MRF) methods typically rely on dictionary matching to map the
+                  temporal MRF signals to quantitative tissue parameters. Such approaches suffer from inherent
+                  discretization errors, as well as high computational complexity as the dictionary size grows. To
+                  alleviate these issues, we propose a HYbrid Deep magnetic ResonAnce fingerprinting (HYDRA) approach,
+                  referred to as HYDRA.
+                  <br>
+                  METHODS:
+                  HYDRA involves two stages: a model-based signature restoration phase and a learning-based parameter
+                  restoration phase. Signal restoration is implemented using low-rank based de-aliasing techniques while
+                  parameter restoration is performed using a deep nonlocal residual convolutional neural network. The
+                  designed network is trained on synthesized MRF data simulated with the Bloch equations and fast
+                  imaging with steady-state precession (FISP) sequences. In test mode, it takes a temporal MRF signal as
+                  input and produces the corresponding tissue parameters.
+                  <br>
+                  RESULTS:
+                  We validated our approach on both synthetic data and anatomical data generated from a healthy subject.
+                  The results demonstrate that, in contrast to conventional dictionary matching-based MRF techniques,
+                  our approach significantly improves inference speed by eliminating the time-consuming dictionary
+                  matching operation, and alleviates discretization errors by outputting continuous-valued parameters.
+                  We further avoid the need to store a large dictionary, thus reducing memory requirements.
+                  <br>
+                  CONCLUSIONS:
+                  Our approach demonstrates advantages in terms of inference speed, accuracy, and storage requirements
+                  over competing MRF methods.</p>
+                <a href="https://www.ncbi.nlm.nih.gov/pubmed/31329307" target="_blank"><strong>Link</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="bertran2019icml" class="row publication">
+              <div class="col-md-4">
+                <a href="http://proceedings.mlr.press/v97/bertran19a.html" target="_blank"><img class="img-fluid"
+                    src="publications/2019/bertran2019icml.png" alt=""></a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <strong>Title:</strong> Adversarially Learned Representations for Information Obfuscation and
+                Inference<br>
+                <strong>Authors:</strong> M. A. Bertran, N. Martinez, A. Papadaki, Q. Qiu, M. R. D. Rodrigues, G.
+                Reeves, and G. Sapiro.<br>
+                <strong>Journal/Conference:</strong> International Conference on Machine Learning (ICML)<br>
+                <p> <strong>Abstract:</strong> Data collection and sharing are pervasive aspects of modern society. This
+                  process can either be voluntary, as in the case of a person taking a facial image to unlock his/her
+                  phone, or incidental, such as traffic cameras collecting videos on pedestrians. An undesirable side
+                  effect of these processes is that shared data can carry information about attributes that users might
+                  consider as sensitive, even when such information is of limited use for the task. It is therefore
+                  desirable for both data collectors and users to design procedures that minimize sensitive information
+                  leakage. Balancing the competing objectives of providing meaningful individualized service levels and
+                  inference while obfuscating sensitive information is still an open problem. In this work, we take an
+                  information theoretic approach that is implemented as an unconstrained adversarial game between Deep
+                  Neural Networks in a principled, data-driven manner. This approach enables us to learn
+                  domain-preserving stochastic transformations that maintain performance on existing algorithms while
+                  minimizing sensitive information leakage.</p>
+                <a href="http://proceedings.mlr.press/v97/bertran19a.html" target="_blank"><strong>Link</strong></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
-<div id="footer">
-    
-</div>
+  <div id="footer">
+
+  </div>
 
 
 
