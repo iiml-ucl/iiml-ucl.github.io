@@ -20,20 +20,21 @@
 
   <link rel='icon' href='imgs/favicon.ico' type='image/x-icon' sizes="16x16" />
 
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
- </script>
+  </script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
-<script> 
-  $(function(){
-  $("#footer").load("footer.html"); 
-});
-</script> 
+<script>
+  $(function () {
+    $("#footer").load("footer.html");
+  });
+  $('.carousel').carousel({
+    interval: 3000
+  });
+</script>
 
 <body>
 
@@ -41,7 +42,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">I<sup>2</sup>|ML at UCL</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -52,7 +54,8 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Members
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -63,7 +66,8 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="projects/projects.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="projects/projects.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Projects
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -71,16 +75,17 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Publications
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="publications.html#2020">2020</a>
-                <a class="dropdown-item" href="publications.html#2019">2019</a>
-                <a class="dropdown-item" href="publications.html#2018">2018</a>
-                <a class="dropdown-item" href="publications.html#2017">2017</a>
-                <a class="dropdown-item" href="publications.html#2016">2016</a>
-                <a class="dropdown-item" href="publications.html#Older">Older</a>
+              <a class="dropdown-item" href="publications.html#2020">2020</a>
+              <a class="dropdown-item" href="publications.html#2019">2019</a>
+              <a class="dropdown-item" href="publications.html#2018">2018</a>
+              <a class="dropdown-item" href="publications.html#2017">2017</a>
+              <a class="dropdown-item" href="publications.html#2016">2016</a>
+              <a class="dropdown-item" href="publications.html#Older">Older</a>
             </div>
           </li>
           <li class="nav-item">
@@ -105,7 +110,8 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h2 class="display-4 text-white mt-2 mb-2">Information, Inference and Machine Learning group at UCL (I<sup>2</sup>|ML)</h2>
+          <h2 class="display-4 text-white mt-2 mb-2">Information, Inference and Machine Learning group at UCL
+            (I<sup>2</sup>|ML)</h2>
         </div>
       </div>
     </div>
@@ -120,22 +126,27 @@
         <hr>
         <img class="img-fluid" src="imgs/group.jpg" alt="">
         <div style="padding-top:20px;">
-        <h2>Our Interests</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-        <a class="btn btn-primary btn-lg" href="publications.html">Publications &raquo;</a>
-        <a class="btn btn-secondary btn-lg" href="projects/projects.html">Projects &raquo;</a>
+          <h2>Our Interests</h2>
+          <hr>
+          <p>The ‘Information, Inference and Machine Learning’ group focuses on the foundations and applications of
+            information theory, information processing, and machine learning systems</p>
+          <p>Concretely, our current research concentrates on the information-theoreticfoundations of learning paradigms
+            such as supervised learning, unsupervised learning, deep learning and meta-learning.</p>
+          <p>It also concentrates — in collaboration with domain experts — on applications of machine learning systems
+            to a variety of areas including arts and humanities and climate science.</p>
+          <p>Our research is funded by diverse bodies such as EPSRC, InnovateUK, H2020, Royal Society and Industry</p>
+          <a class="btn btn-primary btn-lg" href="publications.html">Publications &raquo;</a>
+          <a class="btn btn-secondary btn-lg" href="projects/projects.html">Projects &raquo;</a>
         </div>
         <div style="padding-top:20px;">
           <h2>Latest News</h2>
           <hr>
           <ul>
             <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+              <p>Martin Ferianc has joined the ‘Information, Inference and Machine Learning’ group in October.</p>
             </li>
             <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+              <p>Zahra Sabetsarvestani has successfully defended her PhD in September.</p>
             </li>
 
           </ul>
@@ -144,9 +155,13 @@
       <div class="col-md-4 mb-5">
         <h2>Our Feeds</h2>
         <hr>
-      <a class="twitter-timeline" data-height="450" href="https://twitter.com/IimlUcl?ref_src=twsrc%5Etfw">Tweets by I2ML-UCL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <a class="twitter-timeline" data-height="450" href="https://twitter.com/mrd_rodrigues?ref_src=twsrc%5Etfw">Tweets by Prof Miguel Rodrigues</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
-    </div>
+        <a class="twitter-timeline" data-height="450" href="https://twitter.com/IimlUcl?ref_src=twsrc%5Etfw">Tweets by
+          I2ML-UCL</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" data-height="450"
+          href="https://twitter.com/mrd_rodrigues?ref_src=twsrc%5Etfw">Tweets by Prof Miguel Rodrigues</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
     </div>
     <!-- /.row -->
 
@@ -157,42 +172,119 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <a href="projects/projects.html">
-            <img class="card-img-top member-img" src="http://placehold.it/300x200" alt="">
-          </a>
-          <div class="card-body">
-            <h4 class="card-title">Project</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="carousel-indicator" data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+        <li class="carousel-indicator" data-target="#carouselIndicators" data-slide-to="1"></li>
+        <li class="carousel-indicator" data-target="#carouselIndicators" data-slide-to="2"></li>
+        <li class="carousel-indicator" data-target="#carouselIndicators" data-slide-to="3"></li>
+        <li class="carousel-indicator" data-target="#carouselIndicators" data-slide-to="4"></li>
+        <li class="carousel-indicator" data-target="#carouselIndicators" data-slide-to="5"></li>
+        <li class="carousel-indicator" data-target="#carouselIndicators" data-slide-to="6"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#"><img class="d-block img-fluid" src="imgs/carousel_projects/project1.png"
+                  alt="Innovative Machine Learning to Constrain Aerosol-Cloud Climate Impact"></a>
+            </div>
+            <div class="col-md-8">
+              <h3>Innovative Machine Learning to Constrain Aerosol-Cloud Climate Impact</h3>
+              <p>This research project – a collaboration between data scientists and climate scientists – will develop
+                machine learning solutions to the analysis of the exploding amounts of climate data in order to deliver
+                breakthroughs in climate research, whilst training the next generation of scientists.</p>
+              <p>This project is funded by the European Commission.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <a href="projects/projects.html">
-            <img class="card-img-top member-img" src="http://placehold.it/300x200" alt="">
-          </a>
-          <div class="card-body">
-            <h4 class="card-title">Project</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#"><img class="d-block img-fluid" src="imgs/carousel_projects/project2.png"
+                  alt="Art Through the ICT Lens"></a>
+              <p>Francisco de Goya, Doña Isabel de Porcel (NG1473)</p>
+            </div>
+            <div class="col-md-6">
+              <h3>Art Through the ICT Lens</h3>
+              <p>This research project develops signal processing, image processing, and machine learning technology
+                ingesting multi-dimensional datasets acquired on paintings to unveil distributions of materials within
+                artwork.</p>
+              <p>This project is funded by the EPSRC.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <a href="projects/projects.html">
-            <img class="card-img-top member-img" src="http://placehold.it/300x200" alt="">
-          </a>
-          <div class="card-body">
-            <h4 class="card-title">Project</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#"><img class="d-block img-fluid" src="imgs/carousel_projects/project3.png"
+                  alt="Multi-Modal Signal Processing for Art Investigation"></a>
+              <p>Hurbert and Jan van Eyck Ghent Altarpiece</p>
+            </div>
+            <div class="col-md-8">
+              <h3>Multi-Modal Signal Processing for Art Investigation</h3>
+              <p>This research project develops machine learning technology ingesting multi-dimensional datasets
+                acquired on paintings to reveal features of interest within paintings such as underdrawings,
+                pentimenti, or concealed designs.</p>
+              <p>This project is funded by a Royal Society Newton International Fellowship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#"><img class="d-block img-fluid" src="imgs/carousel_projects/project4.png"
+                  alt="Information-Theoretic Foundations of Deep Learning"></a>
+            </div>
+            <div class="col-md-8">
+              <h3>Information-Theoretic Foundations of Deep Learning</h3>
+              <p>This research project explores the information-theoretic foundations of deep learning systems,
+                including architectures, algorithms, and generalization bounds for supervised and semi-supervised
+                deep learning approaches.</p>
+              <p>This project is funded by a Royal Society Newton International Fellowship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#"><img class="d-block img-fluid" src="imgs/carousel_projects/project5.png"
+                  alt="Learning to Communicate"></a>
+            </div>
+            <div class="col-md-8">
+              <h3>Learning to Communicate</h3>
+              <p>This research project develops physical-layer technology based on deep learning solutions applicable to
+                machine type communications.</p>
+              <p>This project is funded by the EPSRC.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#"><img class="d-block img-fluid" src="imgs/carousel_projects/project6.png"
+                  alt="Learning Privacy for the Internet of Visual Things"></a>
+            </div>
+            <div class="col-md-8">
+              <h3>Learning Privacy for the Internet of Visual Things</h3>
+              <p>This research project develops privacy enhancing technologies for visual data based on deep learning
+                solutions with applications to internet of things systems.</p>
+              <p>This project is funded by CISCO.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- /.row -->
+    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="false"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- /.row -->
 
   </div>
   <!-- /.container -->
