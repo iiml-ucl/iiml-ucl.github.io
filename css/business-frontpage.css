@@ -44,12 +44,21 @@ hr {
 }
 
 
+
 .member-img {
   opacity: 1;
   width: 100%;
   height: 80vw;
   object-fit: cover;
  max-height: 400px;
+}
+
+.carousel-img {
+  opacity: 1;
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+  max-height: 200px;
 }
 
 .member-img:hover {
@@ -179,12 +188,15 @@ i.social-media-white-bg{
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
   background-size: 100%, 100%;
   background-image: none;
   color: #b6bb3c;
-  align-items: bottom;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 80px;
 
 }
 
@@ -193,27 +205,12 @@ i.social-media-white-bg{
   content: '>';
   font-size: 55px;
   color: #b6bb3c;
-  align-items: bottom;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
   color: #b6bb3c;
-  align-items: bottom;
-}
-
-
-.carousel .carousel-indicators li {
-  background-color: #b6bb3c;
-}
-
-.carousel .carousel-indicators .active {
-  background-color: #9ea136;
-}
-
-.carousel-indicators {
-  bottom:-25px;
 }
 
 .carousel-inner {
