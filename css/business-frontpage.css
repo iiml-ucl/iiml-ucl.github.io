@@ -43,7 +43,9 @@ hr {
   border-top: 1px solid #b6bb3c;
 }
 
-
+.funding-logo{
+  max-height: 100px;
+}
 
 .member-img {
   opacity: 1;
