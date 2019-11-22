@@ -47,6 +47,10 @@ hr {
   max-height: 100px;
 }
 
+.press-logo{
+  max-height: 150px;
+}
+
 .member-img {
   opacity: 1;
   width: 100%;
