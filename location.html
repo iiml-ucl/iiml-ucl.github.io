@@ -19,23 +19,28 @@
   <script src="https://kit.fontawesome.com/f071da7bc5.js"></script>
 
   <link rel='icon' href='imgs/favicon.ico' type='image/x-icon' sizes="16x16" />
-  
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
   </script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
+
+<script>
+  $(function () {
+    $("#footer").load("footer.html");
+  });
+</script>
 
 <body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">I2|ML at UCL</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">I<sup>2</sup>|ML at UCL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -45,7 +50,8 @@
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Members
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -55,29 +61,25 @@
               <a class="dropdown-item" href="members/members.html#alumni">Alumni</a>
             </div>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="projects/projects.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projects
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="projects/projects.html#project1">Project #1</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="projects/projects.html">Projects</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Publications
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="publications.html#2020">2020</a>
-                <a class="dropdown-item" href="publications.html#2019">2019</a>
-                <a class="dropdown-item" href="publications.html#2018">2018</a>
-                <a class="dropdown-item" href="publications.html#2017">2017</a>
-                <a class="dropdown-item" href="publications.html#2016">2016</a>
-                <a class="dropdown-item" href="publications.html#Older">Older</a>
+              <a class="dropdown-item" href="publications.html#2020">2020</a>
+              <a class="dropdown-item" href="publications.html#2019">2019</a>
+              <a class="dropdown-item" href="publications.html#2018">2018</a>
+              <a class="dropdown-item" href="publications.html#2017">2017</a>
+              <a class="dropdown-item" href="publications.html#2016">2016</a>
+              <a class="dropdown-item" href="publications.html#Older">Older</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://github.com/ipml-ucl">Software</a>
+            <a class="nav-link" target="_blank" href="https://github.com/iiml-ucl">Software</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="press.html">Press</a>
@@ -105,21 +107,21 @@
     </div>
   </header>
   <!-- Page Content -->
-  <div class="container">
+  <div class="container" style="margin-bottom: 20px;">
     <div class="row">
       <div class="col-md-12 mb-5">
         <h2>Where to Find Us</h2>
         <hr>
       </div>
     </div>
-      <div class="row">
-        <div class="col-md-4">
-          <address>
-            Mallet Place Engineering Building
-            <br>Torrington Place
-            <br>London WC1E 7JE
-            <br>United Kingdom
-            <br>
+    <div class="row">
+      <div class="col-md-4">
+        <address>
+          Mallet Place Engineering Building
+          <br>Torrington Place
+          <br>London WC1E 7JE
+          <br>United Kingdom
+          <br>
         </address>
         <address>
           <abbr title="Phone">P:</abbr>
@@ -128,49 +130,21 @@
           <abbr title="Email">E:</abbr>
           <a href="mailto:#">uclipml@gmail.com</a>
         </address>
-        </div>
-        <div class="col-md-8">
-          <div class="iframe-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.469740068409!2d-0.13443164843152092!3d51.52294357953778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e55337341%3A0x8a933951834e7ff8!2sUCL+Engineering!5e0!3m2!1sen!2suk!4v1565431817998!5m2!1sen!2suk" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
+      </div>
+      <div class="col-md-8">
+        <div class="iframe-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.469740068409!2d-0.13443164843152092!3d51.52294357953778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e55337341%3A0x8a933951834e7ff8!2sUCL+Engineering!5e0!3m2!1sen!2suk!4v1565431817998!5m2!1sen!2suk"
+            width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
+    </div>
     <!-- /.row -->
-    <div class="row" style="padding-top:20px;">
-      <div class="col-md-12 mb-5">
-        <h2>Social Media</h2>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 mb-5">
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://twitter.com/IpmlUcl">
-                       <i class="fab fa-twitter social-media-white-bg"></i>
-                       </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://github.com/ipml-ucl">
-                       <i class="fab fa-github social-media-white-bg"></i>
-                       </a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-
-      <div class="row">
-        <div class="col-lg-12">
-          <p class="m-0 text-center">Copyright &copy; IP|ML 2019-present. For any errors contact <a href="mailto:ferianc.martin@gmail.com?Subject=Error%20GP" target="_top">Martin Ferianc</a></p>
-
-        </div>
-
-      </div>
-
   </div>
   <!-- /.container -->
+  <div id="footer">
 
+  </div>
 </body>
 
 </html>

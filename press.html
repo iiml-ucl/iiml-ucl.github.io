@@ -21,28 +21,27 @@
   <link rel='icon' href='imgs/favicon.ico' type='image/x-icon' sizes="16x16" />
 
 
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
-<script> 
-$(function(){
-$("#footer").load("footer.html"); 
-});
-</script> 
+<script>
+  $(function () {
+    $("#footer").load("footer.html");
+  });
+</script>
 
 <body>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">I2|ML at UCL</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html">I<sup>2</sup>|ML at UCL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -52,7 +51,8 @@ $("#footer").load("footer.html");
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="members/members.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Members
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -62,29 +62,25 @@ $("#footer").load("footer.html");
               <a class="dropdown-item" href="members/members.html#alumni">Alumni</a>
             </div>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="projects/projects.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projects
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="projects/projects.html#project1">Project #1</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="projects/projects.html">Projects</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="publications.html" id="navbarDropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Publications
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="publications.html#2020">2020</a>
-                <a class="dropdown-item" href="publications.html#2019">2019</a>
-                <a class="dropdown-item" href="publications.html#2018">2018</a>
-                <a class="dropdown-item" href="publications.html#2017">2017</a>
-                <a class="dropdown-item" href="publications.html#2016">2016</a>
-                <a class="dropdown-item" href="publications.html#Older">Older</a>
+              <a class="dropdown-item" href="publications.html#2020">2020</a>
+              <a class="dropdown-item" href="publications.html#2019">2019</a>
+              <a class="dropdown-item" href="publications.html#2018">2018</a>
+              <a class="dropdown-item" href="publications.html#2017">2017</a>
+              <a class="dropdown-item" href="publications.html#2016">2016</a>
+              <a class="dropdown-item" href="publications.html#Older">Older</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://github.com/ipml-ucl">Software</a>
+            <a class="nav-link" target="_blank" href="https://github.com/iiml-ucl">Software</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="press.html">Press</a>
@@ -113,102 +109,229 @@ $("#footer").load("footer.html");
   </header>
 
   <!-- Page Content -->
-    <!-- Page Content -->
-    <div class="container">
+  <div class="container">
+    <div class="row">
+      <div id="sidebar-container" class="sidebar-expanded col-1 d-2 d-md-block" style="position:sticky;">
+        <ul class="nobull list-group sticky-top sticky-offset">
+          <li class="nav-item">
+            <a class="nav-link" href="#2019">
+              <h4>2019</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col offset-1" id="main">
         <div class="row">
-                <div class="col-lg-12">
-                    <h4>Latest News</h4>
-                    <hr>
-                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium non, cumque, aut possimus obcaecati quisquam odit placeat aperiam, voluptatum molestiae voluptatem ipsam assumenda maiores temporibus necessitatibus sequi incidunt. Et, saepe.</p>
-                </div>
-            
-                </div>
-        <div class="row">
-          <div id="sidebar-container" class="sidebar-expanded col-1 d-2 d-md-block" style="position:sticky;">
-            <ul class="nobull list-group sticky-top sticky-offset">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#2019"><h4>2019</h4>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#2018"><h4>2018</h4>
-                      </a>
-                    </li>
-                  </ul>
-          </div>
-          <div class="col offset-1" id="main">
-            <div class="row">
-              <div id = "2019" class="col-md-12 mb-5">
-                <h2>2019</h2>
-                <hr>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="row publication">
-                  <div class="col-md-4">
-                      <img class="img-fluid" src="http://placehold.it/400x200" alt="">
-                  </div>
-                    <div class="col-md-8 publication-text">
-                      <h6>Title</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                    </div>
-                </div>
-    
-                <div class="row publication">
-                  <div class="col-md-4">
-                      <img class="img-fluid" src="http://placehold.it/400x200" alt="">
-                  </div>
-                    <div class="col-md-8 publication-text">
-                      <h6>Title</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                    </div>
-                </div>
-    
-              </div>
-            </div>
-    
-            <div class="row">
-              <div id = "2018" class="col-md-12 mb-5">
-                <h2>2018</h2>
-                <hr>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="row publication">
-                  <div class="col-md-4">
-                      <img class="img-fluid" src="http://placehold.it/400x200" alt="">
-                  </div>
-                    <div class="col-md-8 publication-text">
-                      <h6>Title</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                    </div>
-                </div>
-    
-                <div class="row publication">
-                  <div class="col-md-4">
-                      <img class="img-fluid" src="http://placehold.it/400x200" alt="">
-                  </div>
-                    <div class="col-md-8 publication-text">
-                      <h6>Title</h6>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor aliquam nulla facilisi cras fermentum. Fermentum et sollicitudin ac orci phasellus egestas. Et malesuada fames ac turpis egestas sed. Aliquam nulla facilisi cras fermentum odio eu. Senectus et netus et malesuada fames ac turpis egestas. Pretium vulputate sapien nec sagittis. Amet purus gravida quis blandit turpis cursus in. Id diam maecenas ultricies mi. Varius vel pharetra vel turpis nunc. Pulvinar neque laoreet suspendisse interdum consectetur libero. Donec enim diam vulputate ut pharetra sit. Justo nec ultrices dui sapien eget mi. Morbi blandit cursus risus at. Metus aliquam eleifend mi in.</p>
-                    </div>
-                </div>
-    
-              </div>
-            </div>
-    
-    
-    
+          <div id="2019" class="col-md-12 mb-5">
+            <h2>2019</h2>
+            <hr>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://www.forbes.com/sites/simonchandler/2019/09/06/forget-the-future-ai-will-take-us-back-to-the-past/#61226a8b2d13"
+                  , target="_blank">
+                  <img class="img-fluid press-logo" src="imgs/press/forbes.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://www.forbes.com/sites/simonchandler/2019/09/06/forget-the-future-ai-will-take-us-back-to-the-past/#61226a8b2d13"
+                  , target="_blank">
+                  <h6>Forget The Future, AI Will Take Us Back To The Past</h6>
+                </a>
+                <p>AI is the future, and it's also the past. Not just in the sense of having been developed in previous
+                  years and decades, but also in the sense of being capable of recreating human history. This power was
+                  highlighted vividly by a study published at the end of August by researchers from University College
+                  London and Duke University, who managed to use artificial intelligence to create separate
+                  representations of two images that had been painted on both sides of a single panel...</p>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center text-center">
+                <a href="https://www.telegraph.co.uk/science/2019/08/30/hidden-works-goya-van-gogh-van-eyck-could-discovered-using-artifical/"
+                  , target="_blank">
+                  <img class="img-fluid press-logo" src="imgs/press/telegraph.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://www.telegraph.co.uk/science/2019/08/30/hidden-works-goya-van-gogh-van-eyck-could-discovered-using-artifical/"
+                  , target="_blank">
+                  <h6>Hidden works of Goya, Van Gogh and Van Eyck could be discovered using artifical intelligence</h6>
+                </a>
+                <p>Most works of Goya, Van Gogh and Van Eyck could be discovered after scientists developed an
+                  artificially intelligent algorithm which can spot earlier images in x-rays of paintings...</p>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://cosmosmagazine.com/technology/ai-reveals-the-hidden-layers-of-great-art" ,
+                  target="_blank">
+                  <img class="img-fluid press-logo" src="imgs/press/cosmos.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://cosmosmagazine.com/technology/ai-reveals-the-hidden-layers-of-great-art" ,
+                  target="_blank">
+                  <h6>AI reveals the hidden layers of great art</h6>
+                </a>
+                <p>Scientists say they have “spectacularly” improved the clarity of X-ray images of what lies beneath
+                  old paintings, helping art historians and restorers to understand and protect great works.
+
+                  What’s more, they didn’t really expect the results of their work to be quite so good...</p>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://techxplore.com/news/2019-08-ai-uncovers-master.html" , target="_blank">
+                  <img class="img-fluid press-logo" src="imgs/press/explore.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://techxplore.com/news/2019-08-ai-uncovers-master.html" , target="_blank">
+                  <h6>Artificial intelligence uncovers new details about Old Master paintings</h6>
+                </a>
+                <p>Artificial intelligence has been used to analyse high-resolution digital X-ray images of the world
+                  famous Ghent Altarpiece, as part of an investigative project led by UCL...</p>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://www.sciencedaily.com/releases/2019/08/190830150738.htm" , target="_blank">
+
+                  <img class="img-fluid press-logo" src="imgs/press/science_daily.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://www.sciencedaily.com/releases/2019/08/190830150738.htm" , target="_blank">
+                  <h6>AI uncovers new details about Old Master paintings
+                  </h6>
+                </a>
+                <p>Artificial intelligence can be used to analyse high-resolution digital X-ray images of paintings,
+                  providing more insight for conservators and those restoring classic works of art. A new algorithm was
+                  developed and used on the world famous Ghent Altarpiece, as part of an investigative project led by
+                  UCL. The finding is expected to improve our understanding of art masterpieces and provide new
+                  opportunities for art investigation, conservation and presentation...</p>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://www.courthousenews.com/ai-reveals-long-hidden-secrets-of-worlds-art-masterpieces/" ,
+                  target="_blank">
+
+                  <img class="img-fluid press-logo" src="imgs/press/courthouse.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://www.courthousenews.com/ai-reveals-long-hidden-secrets-of-worlds-art-masterpieces/" ,
+                  target="_blank">
+                  <h6>AI Reveals Long-Hidden Secrets of World’s Art Masterpieces
+                  </h6>
+                </a>
+                <p>Scientists are using artificial intelligence to analyze X-ray images of paintings, sorting through
+                  the massive amounts of data available and offering potential new insights that could aid
+                  investigations into unlocking the secrets of ancient works of art, according to new research published
+                  Friday...</p>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://sicnoticias.pt/cultura/2019-08-30-Cientistas-usam-inteligencia-artificial-para-revelar-imagens-do-Retabulo-de-Ghent"
+                  , target="_blank">
+
+                  <img class="img-fluid press-logo" src="imgs/press/sic.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://sicnoticias.pt/cultura/2019-08-30-Cientistas-usam-inteligencia-artificial-para-revelar-imagens-do-Retabulo-de-Ghent"
+                  , target="_blank">
+                  <h6>Cientistas usam inteligência artificial para revelar imagens do Retábulo de Ghent
+                  </h6>
+                </a>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://scitechdaily.com/ai-uncovers-new-details-about-old-master-paintings/" ,
+                  target="_blank">
+
+                  <img class="img-fluid press-logo" src="imgs/press/scitechdaily.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://scitechdaily.com/ai-uncovers-new-details-about-old-master-paintings/" ,
+                  target="_blank">
+                  <h6>AI Uncovers New Details About Old Master Paintings
+                  </h6>
+                </a>
+                <p>Artificial intelligence has been used to analyze high-resolution digital x-ray images of the
+                  world-famous Ghent Altarpiece, as part of an investigative project led by UCL.
+
+                  The finding is expected to improve our understanding of art masterpieces and provide new opportunities
+                  for art investigation, conservation, and presentation...</p>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://tvi24.iol.pt/tecnologia/pintura/cientistas-usam-inteligencia-artificial-para-revelar-imagens-do-retabulo-de-ghent"
+                  , target="_blank">
+
+                  <img class="img-fluid press-logo" src="imgs/press/tvi24.png" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://tvi24.iol.pt/tecnologia/pintura/cientistas-usam-inteligencia-artificial-para-revelar-imagens-do-retabulo-de-ghent"
+                  , target="_blank">
+                  <h6>Cientistas usam inteligência artificial para revelar imagens do Retábulo de Ghent
+                  </h6>
+                </a>
+              </div>
+            </div>
+
+            <div class="row publication">
+              <div class="col-md-4 text-center">
+                <a href="https://www.theengineer.co.uk/ai-x-rays-artistic/#.XW4CxzrE1Uk.twitter" , target="_blank">
+
+                  <img class="img-fluid press-logo" src="imgs/press/engineer.jpg" alt="">
+                </a>
+              </div>
+              <div class="col-md-8 publication-text">
+                <a href="https://www.theengineer.co.uk/ai-x-rays-artistic/#.XW4CxzrE1Uk.twitter" , target="_blank">
+                  <h6>AI and x-rays help reveal artistic mysteries
+                  </h6>
+                </a>
+                <p>A project led by University College London has used AI and x-ray imaging to investigate an art
+                  masterpiece in an entirely new way.
+                  The 15th-century Ghent Altarpiece is a multi-panel artwork painted by Dutch brothers Hubert and Jan
+                  van Eyck in St Bavo’s Cathedral in Ghent, Belgium. Researchers from the National Gallery, Duke
+                  University and UCL developed an algorithm to study mixed x-ray images containing features from the
+                  front and back of the painting’s double-sided panels, which scientists have deconstructed into two
+                  clear images...
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </div>
+    </div>
+  </div>
+
   <!-- /.container -->
 
   <!-- Footer -->
   <div id="footer">
-    
+
   </div>
 
 </body>

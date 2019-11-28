@@ -43,9 +43,28 @@ hr {
   border-top: 1px solid #b6bb3c;
 }
 
+.funding-logo{
+  max-height: 100px;
+}
+
+.press-logo{
+  max-height: 150px;
+}
 
 .member-img {
   opacity: 1;
+  width: 100%;
+  height: 80vw;
+  object-fit: cover;
+ max-height: 400px;
+}
+
+.carousel-img {
+  opacity: 1;
+  width: 100%;
+  height: 80vw;
+  object-fit: cover;
+  max-height: 200px;
 }
 
 .member-img:hover {
@@ -166,4 +185,40 @@ i.social-media-white-bg{
 .footer {
   z-index: 1000;
   position: fixed;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+  background-image: none;
+  color: #b6bb3c;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 80px;
+
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #b6bb3c;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #b6bb3c;
+}
+
+.carousel-inner {
+   margin-bottom:25px;
 }
