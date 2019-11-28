@@ -18,12 +18,12 @@
 
     <script src="https://kit.fontawesome.com/f071da7bc5.js"></script>
 
-    <link rel='icon' href='../imgs/favicon.ico' type='image/x-icon' sizes="16x16" />
+    <link rel='icon' href='imgs/favicon.ico' type='image/x-icon' sizes="16x16" />
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
@@ -104,8 +104,7 @@
                 <div class="col-md-8 publication-text">
                     <h4>Research Interests</h4>
                     <hr>
-                    <p>I am interested in the generalization and optimisation of Deep learning solvers for Linear
-                        inverse problems in imaging.</p>
+                    <p>I am interested in the generalization and optimisation of Deep learning solvers for Linear inverse problems in imaging.</p>
                     <h4>About</h4>
                     <hr>
                     <p>I am currently a fourth-year PhD student in the Electronics & Electrical Engineering Department,
@@ -134,8 +133,7 @@
                                     <strong>Authors:</strong> J. Amjad, Z. Lyu, M. R. D. Rodrigues<br>
                                     <strong>Journal/Conference:</strong> arXiv pre-print
                                     <br>
-                                    <p> <strong>Abstract:</strong> Inverse problems abound in a number of domains such
-                                        as
+                                    <p> <strong>Abstract:</strong> Inverse problems abound in a number of domains such as
                                         medical imaging, remote sensing, and many more, relying on the use of
                                         advanced signal & image processing approaches – such as sparsity-driven
                                         techniques – to determine their solution. This paper instead studies the
@@ -151,13 +149,12 @@
                                         or proxy regularization strategies originating from our theory exhibit
                                         much better performance than deep networks regularized with standard
                                         approaches such as weight-decay.</p>
-                                    <a href="https://arxiv.org/abs/1901.11352" target="_blank"><strong><i
-                                                class="fas fa-link"></i> Link</strong></a>
+                                    <a href="https://arxiv.org/abs/1901.11352" target="_blank"><strong>Link</strong></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <hr>
+					<hr>
                     <div class="row">
                         <div class="col-md-12 mb-5">
                             <h5>2018</h5>
@@ -174,24 +171,17 @@
                                 <div class="col-md-8 publication-text">
                                     <strong>Title:</strong> On Deep Learning for Inverse Problems<br>
                                     <strong>Authors:</strong> J. Amjad, J. Sokolic, M. R. D. Rodrigues<br>
-                                    <strong>Journal/Conference:</strong> European Signal Processing Conference (EUSIPCO)
-                                    2018
+                                    <strong>Journal/Conference:</strong> European Signal Processing Conference (EUSIPCO) 2018
                                     <br>
-                                    <p> <strong>Abstract:</strong>This paper analyses the generalization behaviour of
-                                        a deep neural networks with a focus on their use in inverse problems. In
-                                        particular,
-                                        by leveraging the robustness framework by Xu and Mannor, we provide deep neural
-                                        network based regression generalization bounds that are also specialized to
-                                        sparse
-                                        approximation problems. The proposed bounds show that the sparse approximation
-                                        performance
-                                        of deep neural networks can be potentially superior to that of classical sparse
-                                        reconstruction
-                                        algorithms, with reconstruction errors limited only by the noise level
-                                        independently of the
-                                        underlying data.</p>
-                                    <a href="https://www.eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570437753.pdf"
-                                        target="_blank"><strong><i class="fas fa-link"></i> Link</strong></a>
+                                    <p> <strong>Abstract:</strong>This paper analyses the generalization behaviour of 
+										a deep neural networks with a focus on their use in inverse problems. In particular,
+										by leveraging the robustness framework by Xu and Mannor, we provide deep neural 
+										network based regression generalization bounds that are also specialized to sparse 
+										approximation problems. The proposed bounds show that the sparse approximation performance 
+										of deep neural networks can be potentially superior to that of classical sparse reconstruction
+										algorithms, with reconstruction errors limited only by the noise level independently of the 
+										underlying data.</p>
+                                    <a href="https://www.eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570437753.pdf" target="_blank"><strong>Link</strong></a>
                                 </div>
                             </div>
                         </div>
