@@ -23,7 +23,7 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
-    </script>
+  </script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
@@ -48,7 +48,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h2>Martin Ferianc</h2>
-          <h3>First-year PhD Student</h3>
+          <h3>Second-year PhD Student</h3>
           <hr>
         </div>
       </div>
@@ -85,7 +85,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a target="_blank" href="www.ferianc.eu">
+              <a target="_blank" href="https://martinferianc.github.io/">
                 <i class="fas fa-globe"></i>
               </a>
             </li>
@@ -114,158 +114,246 @@
           <h4>About</h4>
           <hr>
           <p>Martin Ferianc is a PhD candidate in the Department of Electronic and Electrical Engineering at University
-            College London. His research interests include AutoML, Bayesian neural networks, Metalearning and Deep
-            Learning
-            . Martin has an MEng in Electronic and Information Engineering from Imperial College London.
+            College London. His research interests include neural architecture search, Bayesian neural network, deep
+            learning and hardware acceleration of neural networks. Martin has obtained an MEng in Electronic and
+            Information Engineering from Imperial College London.
           </p>
           <h4>Publications</h4>
           <hr>
           <div class="row">
-            <div class="col-md-12 mb-5">
-              <h5>2020</h5>
-              <hr>
-            </div>
-          </div>
-          <div class="row">
             <div class="col-md-12">
-              <div id="ferianc2019arc" class="row publication">
-                <div class="col-md-4">
-                  <a href="https://arxiv.org/abs/2002.00190" target="_blank"><img class="img-fluid"
-                      src="ferianc/ferianc2020arc.png" alt=""></a>
+              <textarea id="bibtex_input" style="display:none;">
+                @misc{ferianc2021combinet,
+                  title={ComBiNet: Compact Convolutional Bayesian Neural Network for Image Segmentation}, 
+                  author={Ferianc, Martin and Manocha, Divyansh and Fan, Hongxiang and Rodrigues, Miguel},
+                  year={2021},
+                  eprint={2104.06957},
+                  archivePrefix={arXiv},
+                  primaryClass={cs.LG},
+                  url={https://arxiv.org/pdf/2104.06957},
+                  code = {https://github.com/martinferianc/ComBiNet}
+                  }
+                @inproceedings{fan2018real,
+                    title={A Real-Time Object Detection Accelerator with Compressed SSDLite on FPGA},
+                    author={Fan, Hongxiang and Liu, Shuanglong and Ferianc, Martin and Ng, Ho-Cheung and Que, Zhiqiang and Liu, Shen and Niu, Xinyu and Luk, Wayne},
+                    booktitle={2018 International Conference on Field-Programmable Technology (FPT)},
+                    pages={14--21},
+                    year={2018},
+                    organization={IEEE},
+                    url={https://ieeexplore.ieee.org/document/8742299}
+                  }
+                  
+                  @inproceedings{fan2019f,
+                    title={F-E3D: FPGA-based acceleration of an efficient 3D convolutional neural network for human action recognition},
+                    author={Fan, Hongxiang and Luo, Cheng and Zeng, Chenglong and Ferianc, Martin and Que, Zhiqiang and Liu, Shuanglong and Niu, Xinyu and Luk, Wayne},
+                    booktitle={2019 IEEE 30th International Conference on Application-specific Systems, Architectures and Processors (ASAP)},
+                    volume={2160},
+                    pages={1--8},
+                    year={2019},
+                    organization={IEEE},
+                    url={https://ieeexplore.ieee.org/abstract/document/8825127},
+                    extra={Best Paper Award Nominee}
+                  }
+                  
+                  @article{fang2020real,
+                    title={Real-world experiences: Efficacy and tolerability of pirfenidone in clinical practice},
+                    author={Fang, Chuling and Huang, Hui and Guo, Jian and Ferianc, Martin and Xu, Zuojun},
+                    journal={Plos one},
+                    volume={15},
+                    number={1},
+                    pages={e0228390},
+                    year={2020},
+                    publisher={Public Library of Science San Francisco, CA USA},
+                    url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228390}
+                  }
+                  
+                  @inproceedings{fan2019static,
+                    title={Static block floating-point quantization for convolutional neural networks on fpga},
+                    author={Fan, Hongxiang and Wang, Gang and Ferianc, Martin and Niu, Xinyu and Luk, Wayne},
+                    booktitle={2019 International Conference on Field-Programmable Technology (ICFPT)},
+                    pages={28--35},
+                    year={2019},
+                    organization={IEEE},
+                    url={https://ieeexplore.ieee.org/abstract/document/8977902},
+                    code={https://github.com/os-hxfan/Static_BFP_CNN},
+                    extra={Best Paper Award Nominee}
+                  }
+                  
+                  @inproceedings{ferianc2020improving,
+                    title={Improving Performance Estimation for FPGA-Based Accelerators for Convolutional Neural Networks},
+                    author={Ferianc, Martin and Fan, Hongxiang and Chu, Ringo SW and Stano, Jakub and Luk, Wayne},
+                    booktitle={International Symposium on Applied Reconfigurable Computing},
+                    pages={3--13},
+                    year={2020},
+                    organization={Springer, Cham},
+                    url = {https://link.springer.com/chapter/10.1007/978-3-030-44534-8_1},
+                    code={https://github.com/martinferianc/Improving_Per_Esti_for_FPGA-based_Acc_for_CNNs-ARC2020},
+                    extra={Best Paper Award},
+                    media={https://www.ucl.ac.uk/electronic-electrical-engineering/news/2020/may/improving-performance-estimation-convolutional-neural-network-accelerators}
+                  }
+                  
+                  @article{fang2020relation,
+                    title={Relation between sex hormones and leucocyte telomere length in men with idiopathic pulmonary fibrosis},
+                    author={Fang, Chuling and Huang, Hui and Zhang, Qian and Wang, Na and Jing, Xiaoyan and Guo, Jian and Ferianc, Martin and Xu, Zuojun},
+                    journal={Respirology},
+                    year={2020},
+                    publisher={John Wiley \& Sons, Ltd},
+                    url={https://onlinelibrary.wiley.com/doi/abs/10.1111/resp.13871}
+                  }
+                  
+                  @misc{ferianc2021vinnas,
+                    title={VINNAS: Variational Inference-based Neural Network Architecture Search}, 
+                    author={Martin Ferianc and Hongxiang Fan and Miguel Rodrigues},
+                    year={2021},
+                    eprint={2007.06103},
+                    archivePrefix={arXiv},
+                    primaryClass={cs.LG},
+                    url = {https://arxiv.org/abs/2007.06103}
+                }
+                  @inproceedings{fan2020optimizing,
+                    title={Optimizing FPGA-Based CNN Accelerator Using Differentiable Neural Architecture Search},
+                    author={Fan, Hongxiang and Ferianc, Martin and Liu, Shuanglong and Que, Zhiqiang and Niu, Xinyu and Luk, Wayne},
+                    booktitle={2020 IEEE 38th International Conference on Computer Design (ICCD)},
+                    pages={465--468},
+                    year={2020},
+                    organization={IEEE},
+                    url = {https://ieeexplore.ieee.org/document/9283571}
+                  }
+                  
+                  @article{chuling2021whole,
+                    title={Whole-exome sequencing identifies susceptibility genes and pathways for idiopathic pulmonary fibrosis in the Chinese population},
+                    author={Chuling, Fang and Huang, Hui and Yujia, Feng and Zhang, Qian and Wang, Na and Xiaoyan, Jing and Guo, Jian and Ferianc, Martin and Zuojun, Xu},
+                    journal={Scientific Reports},
+                    volume={11},
+                    number={1},
+                    year={2021},
+                    publisher={Nature Publishing Group},
+                    url={https://www.nature.com/articles/s41598-020-80944-4}
+                  }
+                  
+                  @article{liu2021toward,
+                    title={Toward Full-Stack Acceleration of Deep Convolutional Neural Networks on FPGAs},
+                    author={Liu, Shuanglong and Fan, Hongxiang and Ferianc, Martin and Niu, Xinyu and Shi, Huifeng and Luk, Wayne},
+                    journal={IEEE Transactions on Neural Networks and Learning Systems},
+                    year={2021},
+                    publisher={IEEE},
+                    url = {https://ieeexplore.ieee.org/iel7/5962385/6104215/09354062.pdf}
+                  }
+                  
+                  @misc{ferianc2021effects,
+                    title={On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks}, 
+                    author={Martin Ferianc and Partha Maji and Matthew Mattina and Miguel Rodrigues},
+                    year={2021},
+                    eprint={2102.11062},
+                    archivePrefix={arXiv},
+                    primaryClass={cs.LG},
+                    url={https://arxiv.org/abs/2102.11062},
+                    code = {https://github.com/martinferianc/quantised-bayesian-nets}
+                    }
+                  
+                  @article{ferianc2021improving,
+                    title={Improving Performance Estimation for Design Space Exploration for Convolutional Neural Network Accelerators},
+                    author={Ferianc, Martin and Fan, Hongxiang and Manocha, Divyansh and Zhou, Hongyu and Liu, Shuanglong and Niu, Xinyu and Luk, Wayne},
+                    journal={Electronics},
+                    volume={10},
+                    number={4},
+                    pages={520},
+                    year={2021},
+                    url={https://www.mdpi.com/2079-9292/10/4/520},
+                    code={https://github.com/martinferianc/Improving_Per_Esti_for_FPGA-based_Acc_for_CNNs-ARC2020},
+                    publisher={Multidisciplinary Digital Publishing Institute}
+                  }
+                </textarea>
+              <div class="bibtex_template">
+                <div class="if author">
+                  <span style="font-size:24px">•</span>
+                  <span class="if year">
+                    <span class="year"></span>
+                  </span>
+                  <span class="author"></span>
+
+                  <span class="if url" style="margin-left: 10px">
+                    <a class="url" style="color:blue;" target="_blank">[view online <i class="fas fa-file-pdf"></i>]</a>
+                  </span>
+                  <span class="if code">
+                    ,<a class="code" style="color:blue;" target="_blank">[view code <i class="fab fa-github"></i>]</a>
+                  </span>
                 </div>
-                <div class="col-md-8 publication-text">
-                  <strong>Title:</strong> Improving Performance Estimation for FPGA-based Accelerators for Convolutional
-                  Neural Networks<br>
-                  <strong>Authors:</strong> M. Ferianc, H. Fan, R.S.W. Chu, J. Stano, W. Luk<br>
-                  <strong>Journal/Conference:</strong> International Symposium on Applied Reconfigurable Computing
-                  (ARC)<br>
-                  <p> <strong>Abstract:</strong> Field-programmable gate array (FPGA) based accelerators are being
-                    widely used for acceleration of convolutional neural networks (CNNs) due to their potential in
-                    improving the performance and reconfigurability for specific application instances. To determine the
-                    optimal configuration of an FPGA-based accelerator, it is necessary to explore the design space and
-                    an accurate performance prediction plays an important role during the exploration. This work
-                    introduces a novel method for fast and accurate estimation of latency based on a Gaussian process
-                    parametrised by an analytic approximation and coupled with runtime data. The experiments conducted
-                    on three different CNNs on an FPGA-based accelerator on Intel Arria 10 GX 1150 demonstrated a 30.7%
-                    improvement in accuracy with respect to the mean absolute error in comparison to a standard analytic
-                    method in leave-one-out cross-validation.</p>
-                  <a href="https://arxiv.org/abs/2002.00190" target="_blank"><strong><i class="fas fa-link"></i>
-                      Link</strong></a>
+                <div>
+                  <span class="title" , style="font-weight: bold;"></span>
+                </div>
+                <div>
+                  <span class="if journal">
+                    <span class="journal" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if publisher">
+                    <span class="publisher" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if booktitle">
+                    <span class="booktitle" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if organization">
+                    <span class="organization" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if eprint">
+                    <span class="eprint" style="font-style:italic;"></span>
+                  </span>
+                </div>
+                <div></div>
+                <span class="if extra">
+                  <span class="extra" style="font-style:italic;font-weight: bold;"></span>
+                </span>
+                <span class="if media">
+                  , <a class="media" style="color:blue;" target="_blank">Media Coverage</a>
+                </span>
+                <div style="margin-bottom:10px;"></div>
+              </div>
+
+              <div class="bibtex_structure">
+                <div class="sections bibtextypekey">
+                  <div class="section article">
+                    <h2>Refereed Articles</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
+                  <div class="section book">
+                    <h2>Books</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
+                  <div class="section inproceedings">
+                    <h2>Conference and Workshop Papers</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
+                  <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+                    <h2>Pre-prints and Other Publications</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 mb-5">
-              <h5>2019</h5>
-              <hr>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div id="ferianc2020fpt" class="row publication">
-                <div class="col-md-4">
-                  <a href="https://ieeexplore.ieee.org/abstract/document/8977902" target="_blank"><img class="img-fluid"
-                      src="ferianc/ferianc2020fpt.png" alt=""></a>
-                </div>
-                <div class="col-md-8 publication-text">
-                  <strong>Title:</strong> Static Block Floating-Point Quantization for Convolutional Neural Networks on FPGA<br>
-                  <strong>Authors:</strong> H. Fan, G. Wang, M. Ferianc, X. Niu and W Luk<br>
-                  <strong>Journal/Conference:</strong> International Conference on Field-Programmable Technology (ICFPT)<br>
-                  <p> <strong>Abstract:</strong> Convolutional neural networks (CNNs) have been widely applied in various computer vision and speech processing
-                  applications. However, the algorithmic complexity of CNNs hinders their deployment in embedded systems with limited
-                  memory and computational resources. This paper proposes static block floating-point (BFP) quantization, an effective
-                  approach involving Kullback-Leibler divergence, to determine the static shared exponents. Without need for retraining,
-                  the proposed approach is able to quantize CNNs to 8 bits with negligible accuracy loss. An FPGA-based hardware design
-                  with static BFP quantization is also proposed. Compared with 8-bit integer linear quantization, our experiments show
-                  that the hardware kernel based on static BFP quantization can achieve over 50% reduction in logic resources on an FPGA.
-                  Based on static BFP quantization, a tool implemented in the PyTorch framework is developed, which can automatically
-                  generate optimised configuration according to user requirements for given CNN models, where the entire optimization
-                  process takes only a few minutes on an Intel Xeon Silver 4110 CPU.</p>
-                  <a href="https://ieeexplore.ieee.org/abstract/document/8977902" target="_blank"><strong><i class="fas fa-link"></i>
-                      Link</strong></a>
-                </div>
+              <div class="form-group" style="margin-bottom:10px;">
+                <input type="text" class="bibtex_search form-control" id="searchbar"
+                  placeholder="Search publications, authors, venues">
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div id="ferianc2019asap" class="row publication">
-                <div class="col-md-4">
-                  <a href="https://ieeexplore.ieee.org/abstract/document/8825127" target="_blank"><img class="img-fluid"
-                      src="ferianc/ferianc2019asap.png" alt=""></a>
-                </div>
-                <div class="col-md-8 publication-text">
-                  <strong>Title:</strong> F-E3D: FPGA-based Acceleration of an Efficient 3D Convolutional Neural Network
-                  for Human Action Recognition<br>
-                  <strong>Authors:</strong> H. Fan, C. Luo, C. Zheng, M. Ferianc, Z. Que, S. Liu, X. Niu, W. Luk<br>
-                  <strong>Journal/Conference:</strong> International Conference on Application-specific Systems,
-                  Architectures and Processors (ASAP)<br>
-                  <p> <strong>Abstract:</strong> Three-dimensional convolutional neural networks (3D CNNs) have
-                    demonstrated their outstanding classification accuracy for human action recognition (HAR). However,
-                    the large number of computations and parameters in 3D CNNs limits their deployability in real-life
-                    applications. To address this challenge, this paper adopts an algorithm-hardware co-design method by
-                    proposing an efficient 3D CNN building unit called 3D-1 bottleneck residual block (3D-1 BRB) at the
-                    algorithm level, and a corresponding FPGA-based hardware architecture called F-E3D at the hardware
-                    level. Based on 3D-1 BRB, a novel 3D CNN model called E3DNet is developed, which achieves nearly 37
-                    times reduction in model size and 5% improvement in accuracy compared to standard 3D CNNs on the
-                    UCF101 dataset. Together with several hardware optimizations, including 3D fused BRB, online
-                    blocking and kernel reuse, the proposed F-E3D is nearly 13 times faster than a previous FPGA design
-                    for 3D CNNs, with performance and accuracy comparable to other state-of-the-art 3D CNN models on GPU
-                    platforms while requiring only 7% of their energy consumption.</p>
-                  <a href="https://ieeexplore.ieee.org/abstract/document/8825127" target="_blank"><strong><i
-                        class="fas fa-link"></i> Link</strong></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 mb-5">
-              <h5>2018</h5>
-              <hr>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div id="ferianc2018fpt" class="row publication">
-                <div class="col-md-4">
-                  <a href="https://ieeexplore.ieee.org/abstract/document/8742299/" target="_blank"><img
-                      class="img-fluid" src="ferianc/ferianc2019fpt.png" alt=""></a>
-                </div>
-                <div class="col-md-8 publication-text">
-                  <strong>Title:</strong> A Real-Time Object Detection Accelerator with Compressed SSDLite on FPGA<br>
-                  <strong>Authors:</strong> H. Fan, S. Liu, M. Ferianc, HC. Ng, Z. Que, S. Liu, X. Niu, W. Luk<br>
-                  <strong>Journal/Conference:</strong> International Conference on Field-Programmable Technology
-                  (FPT)<br>
-                  <p> <strong>Abstract:</strong> TConvolutional neural network (CNN)-based object detection has been
-                    widely employed in various applications such as autonomous driving and intelligent video
-                    surveillance. However, the computational complexity of conventional convolution hinders its
-                    application in embedded systems. Recently, a mobile-friendly CNN model SSDLite-MobileNetV2
-                    (SSDLiteM2) has been proposed for object detection. This model consists of a novel layer called
-                    bottleneck residual block (BRB). Although SSDLiteM2 contains far fewer parameters and computations
-                    than conventional CNN models, its performance on embedded devices still cannot meet the requirements
-                    of real-time processing. This paper proposes a novel FPGA-based architecture for SSDLiteM2 in
-                    combination with hardware optimizations including fused BRB, processing element (PE) sharing and
-                    load-balanced channel pruning. Moreover, a novel quantization scheme called partial quantization has
-                    been developed, which partially quantizes SSDLiteM2 to 8 bits with only 1.8% accuracy loss.
-                    Experiments show that the proposed design on a Xilinx ZC706 device can achieve up to 65 frames per
-                    second with 20.3 mean average precision on the COCO dataset.</p>
-                  <a href="https://ieeexplore.ieee.org/abstract/document/8742299/" target="_blank"><strong><i
-                        class="fas fa-link"></i> Link</strong></a>
-                </div>
-              </div>
+              <div id="bibtex_display"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- /.container -->
 
-  </div>
-  <!-- /.container -->
+    <!-- Footer -->
+    <div id="footer">
+    </div>
 
-  <!-- Footer -->
-  <div id="footer">
-  </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
 </body>
 
