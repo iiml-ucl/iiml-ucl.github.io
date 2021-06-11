@@ -94,65 +94,149 @@
                     <h4>Our Feed</h4>
                     <hr>
                     <a class="twitter-timeline" data-height="400"
-                        href="https://twitter.com/IpmlUcl?ref_src=twsrc%5Etfw">Tweets by IPML-UCL</a>
+                        href="https://twitter.com/IimlUcl?ref_src=twsrc%5Etfw">Tweets by IIML-UCL</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                 </div>
                 <div class="col-md-8 publication-text">
                     <h4>Research Interests</h4>
                     <hr>
-                    <p>Computer vision, Deep learning and Privacy</p>
+                    <p>  Fairness and Privacy-Preservation in ML, Federated Learning, Deep Learning</p>
                     <h4>About</h4>
                     <hr>
                     <p>Afroditi Papadaki holds an undergraduate degree in Digital Systems from University of Piraeus,
                         Greece and a postgraduate degree in Internet Engineering from University College London. She has
-                        previously worked as a software engineer at Wings ICT solutions, Greece and as a research
-                        assistant at the University of Piraeus.
+                        previously worked as a research software engineer at Wings ICT solutions, Greece and at the University of Piraeus.
                     </p>
                     <h4>Publications</h4>
                     <hr>
-                    <div class="row">
-                        <div class="col-md-12 mb-5">
-                            <h5>2019</h5>
-                            <hr>
-                        </div>
+  <div class="row">
+            <div class="col-md-12">
+                <textarea id="bibtex_input" style="display:none;">
+                    @misc{bertran2018learning,
+                          title={Learning to Collaborate for User-Controlled Privacy},
+                          author={Martin Bertran and Natalia Martinez and Afroditi Papadaki and Qiang Qiu and Miguel Rodrigues and Guillermo Sapiro},
+                          year={2018},
+                          eprint={1805.07410},
+                          archivePrefix={arXiv},
+                          primaryClass={stat.ML},
+                          url={https://arxiv.org/abs/1805.07410}
+                    }
+
+                    @misc{
+                    bertran2019learning,
+                    title={Learning data-derived privacy preserving representations from information metrics},
+                    author={Martin Bertran and Natalia Martinez and Afroditi Papadaki and Qiang Qiu and Miguel Rodrigues and Guillermo Sapiro},
+                    year={2019},
+                    url={https://openreview.net/forum?id=SJe2so0qF7},
+                    }
+
+                @inproceedings{martinezbpf,
+                      title={Blind Pareto Fairness and Subgroup Robustness},
+                      author={Martinez, Natalia and Bertran, Martin and Papadaki, Afroditi and Rodrigues, Miguel and Sapiro, Guillermo},
+                      booktitle = {Proceedings of the 38th International Conference on Machine Learning (ICML 2021)},
+                      year = {2021},
+                      extra={- To Appear}
+                  }
+
+                  @inproceedings{martinezrobustness,
+                      title={Pareto Robustness for Fairness Beyond Demographics},
+                      author={Martinez, Natalia and Bertran, Martin and Papadaki, Afroditi and Rodrigues, Miguel and Sapiro, Guillermo},
+                      booktitle={Fair AI in Finance at the 34th Conference on Neural Information Processing Systems (NeurIPS 2020)},
+                      year = {2020}
+                  }
+
+                   @inproceedings{pmlr-v97-bertran19a,
+                      title = {Adversarially Learned Representations for Information Obfuscation and Inference},
+                      author = {Bertran, Martin and Martinez, Natalia and Papadaki, Afroditi and Qiu, Qiang and Rodrigues, Miguel and Reeves, Galen and Sapiro, Guillermo},
+                      booktitle = {Proceedings of the 36th International Conference on Machine Learning (ICML 2019)},
+                      pages = {614--623},
+                      year = {2019},
+                      editor = {Kamalika Chaudhuri and Ruslan Salakhutdinov},
+                      volume = {97},
+                      series = {Proceedings of Machine Learning Research},
+                      month = {09--15 Jun}, publisher = {PMLR},
+                      pdf = {http://proceedings.mlr.press/v97/bertran19a/bertran19a.pdf},
+                      url = { http://proceedings.mlr.press/v97/bertran19a.html },
+                      code={https://github.com/MartinBertran/AIOI}}
+
+
+                  @inproceedings{bertranlearning,
+                      title={Learning Representations for Utility and Privacy: An Information-Theoretic Based Approach},
+                      author={Bertran, Martin and Martinez, Natalia and Papadaki, Afroditi and Qiu, Qiang and Rodrigues, Miguel and Sapiro, Guillermo},
+                      booktitle={Privacy in Machine Learning and Artificial Intelligence at the 35th International Conference on Machine Learning (ICML 2018)},
+                      year = {2018}
+                  }
+
+                </textarea>
+              <div class="bibtex_template">
+                <div class="if author">
+                  <span style="font-size:24px">•</span>
+                  <span class="if year">
+                    <span class="year"></span>
+                  </span>
+                  <span class="author"></span>
+
+                  <span class="if url" style="margin-left: 10px">
+                    <a class="url" style="color:blue;" target="_blank">[view online <i class="fas fa-file-pdf"></i>]</a>
+                  </span>
+                  <span class="if code">
+                    ,<a class="code" style="color:blue;" target="_blank">[view code <i class="fab fa-github"></i>]</a>
+                  </span>
+                </div>
+                <div>
+                  <span class="title" , style="font-weight: bold;"></span>
+                </div>
+                <div>
+                  <span class="if journal">
+                    <span class="journal" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if publisher">
+                    <span class="publisher" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if booktitle">
+                    <span class="booktitle" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if organization">
+                    <span class="organization" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if eprint">
+                    <span class="eprint" style="font-style:italic;"></span>
+                  </span>
+                </div>
+                <div></div>
+                <span class="if extra">
+                  <span class="extra" style="font-style:italic;font-weight: bold;"></span>
+                </span>
+                <span class="if media">
+                  , <a class="media" style="color:blue;" target="_blank">Media Coverage</a>
+                </span>
+                <div style="margin-bottom:10px;"></div>
+              </div>
+
+              <div class="bibtex_structure">
+                <div class="sections bibtextypekey">
+                  <div class="section inproceedings">
+                    <h2>Conference and Workshop Papers</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div id="papadaki2019icml" class="row publication">
-                                <div class="col-md-4">
-                                    <a href="http://proceedings.mlr.press/v97/bertran19a.html" target="_blank"><img
-                                            class="img-fluid" src="papadaki/papadaki2019icml.png" alt=""></a>
-                                </div>
-                                <div class="col-md-8 publication-text">
-                                    <strong>Title:</strong> Adversarially Learned Representations for Information
-                                    Obfuscation and Inference
-                                    for Human Action Recognition<br>
-                                    <strong>Authors:</strong> M. Bertran, N. Martinez, A. Papadaki, Q. Qiu, M.
-                                    Rodrigues, G. Reeves, G. Sapiro <br>
-                                    <strong>Journal/Conference:</strong> International Conference on Machine
-                                    Learning<br>
-                                    <p> <strong>Abstract:</strong> Data collection and sharing are pervasive aspects of
-                                        modern society. This process can either be voluntary, as in the case of a person
-                                        taking a facial image to unlock his/her phone, or incidental, such as traffic
-                                        cameras collecting videos on pedestrians. An undesirable side effect of these
-                                        processes is that shared data can carry information about attributes that users
-                                        might consider as sensitive, even when such information is of limited use for
-                                        the task. It is therefore desirable for both data collectors and users to design
-                                        procedures that minimize sensitive information leakage. Balancing the competing
-                                        objectives of providing meaningful individualized service levels and inference
-                                        while obfuscating sensitive information is still an open problem. In this work,
-                                        we take an information theoretic approach that is implemented as an
-                                        unconstrained adversarial game between Deep Neural Networks in a principled,
-                                        data-driven manner. This approach enables us to learn domain-preserving
-                                        stochastic transformations that maintain performance on existing algorithms
-                                        while minimizing sensitive information leakage.</p>
-                                    <a href="http://proceedings.mlr.press/v97/bertran19a.html"
-                                        target="_blank"><strong><i class="fas fa-link"></i> Link</strong></a>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+                    <h2>Pre-prints and Other Publications</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group" style="margin-bottom:10px;">
+                <input type="text" class="bibtex_search form-control" id="searchbar"
+                  placeholder="Search publications, authors, venues">
+              </div>
+              <div id="bibtex_display"></div>
+            </div>
+          </div>
                 </div>
             </div>
         </div>
@@ -162,6 +246,7 @@
     <!-- Footer -->
     <div id="footer">
     </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
 </body>
 
