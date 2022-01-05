@@ -123,144 +123,181 @@
           <div class="row">
             <div class="col-md-12">
               <textarea id="bibtex_input" style="display:none;">
-                @misc{ferianc2021combinet,
-                  title={ComBiNet: Compact Convolutional Bayesian Neural Network for Image Segmentation}, 
-                  author={Ferianc, Martin and Manocha, Divyansh and Fan, Hongxiang and Rodrigues, Miguel},
+                @InProceedings{10.1007/978-3-030-86365-4_39,
+                  author="Ferianc, Martin
+                  and Manocha, Divyansh
+                  and Fan, Hongxiang
+                  and Rodrigues, Miguel",
+                  editor="Farka{\v{s}}, Igor
+                  and Masulli, Paolo
+                  and Otte, Sebastian
+                  and Wermter, Stefan",
+                  title="ComBiNet: Compact Convolutional Bayesian Neural Network for Image Segmentation",
+                  booktitle="Artificial Neural Networks and Machine Learning -- ICANN 2021",
+                  year="2021",
+                  organization="Springer International Publishing",
+                  address="Cham",
+                  pages="483--494",
+                  url = {https://arxiv.org/abs/2104.06957},
+                  code = {https://github.com/martinferianc/ComBiNet},
+                  isbn="978-3-030-86365-4"
+                  }
+
+               @INPROCEEDINGS{9609847,
+                      author={Ferianc, Martin and Que, Zhiqiang and Fan, Hongxiang and Luk, Wayne and Rodrigues, Miguel},
+                      booktitle={2021 International Conference on Field-Programmable Technology (ICFPT)}, 
+                      title={Optimizing {B}ayesian Recurrent Neural Networks on an {FPGA}-based Accelerator}, 
+                      year={2021},
+                      volume={},
+                      number={},
+                      pages={1-10},
+                      organization={IEEE},
+                      url = {https://arxiv.org/abs/2106.06048},
+                      doi={10.1109/ICFPT52863.2021.9609847}}
+
+              @inproceedings{fan2018real,
+                  title={A Real-Time Object Detection Accelerator with Compressed {SSDLite} on {FPGA}},
+                  author={Fan, Hongxiang and Liu, Shuanglong and Ferianc, Martin and Ng, Ho-Cheung and Que, Zhiqiang and Liu, Shen and Niu, Xinyu and Luk, Wayne},
+                  booktitle={2018 International Conference on Field-Programmable Technology (FPT)},
+                  pages={14--21},
+                  year={2018},
+                  organization={IEEE},
+                  url={https://ieeexplore.ieee.org/document/8742299}
+                }
+                @INPROCEEDINGS{DBLP:journals/corr/abs-2111-12787,
+                  author={Hongxiang Fan and
+                      Martin Ferianc and
+                      Zhiqiang Que and
+                      He Li and
+                      Shuanglong Liu and
+                      Xinyu Niu and
+                      Wayne Luk},
+                  booktitle={27th Asia and South Pacific Design Automation Conference
+                      (ASP-DAC) 2022}, 
+                  title={Algorithm and Hardware Co-design for Reconfigurable CNN Accelerator
+                  }, 
+                  year={2022},
+                  volume={},
+                  number={},
+                  organization={IEEE},
+                  pages={1-10},
+                  url = {https://arxiv.org/abs/2111.12787}
+              }
+                
+                @inproceedings{fan2019f,
+                  title={{F-E3D}: {FPGA}-based acceleration of an efficient 3D convolutional neural network for human action recognition},
+                  author={Fan, Hongxiang and Luo, Cheng and Zeng, Chenglong and Ferianc, Martin and Que, Zhiqiang and Liu, Shuanglong and Niu, Xinyu and Luk, Wayne},
+                  booktitle={2019 IEEE 30th International Conference on Application-specific Systems, Architectures and Processors (ASAP)},
+                  volume={2160},
+                  pages={1--8},
+                  year={2019},
+                  organization={IEEE},
+                  url={https://ieeexplore.ieee.org/abstract/document/8825127},
+                  extra={Best Paper Award Nominee}
+                }
+                
+                
+                @inproceedings{fan2019static,
+                  title={Static block floating-point quantization for convolutional neural networks on {FPGA}},
+                  author={Fan, Hongxiang and Wang, Gang and Ferianc, Martin and Niu, Xinyu and Luk, Wayne},
+                  booktitle={2019 International Conference on Field-Programmable Technology (ICFPT)},
+                  pages={28--35},
+                  year={2019},
+                  organization={IEEE},
+                  url={https://ieeexplore.ieee.org/abstract/document/8977902},
+                  code={https://github.com/os-hxfan/Static_BFP_CNN},
+                  extra={Best Paper Award Nominee}
+                }
+                
+                @inproceedings{ferianc2020improving,
+                  title={Improving Performance Estimation for {FPGA}-Based Accelerators for Convolutional Neural Networks},
+                  author={Ferianc, Martin and Fan, Hongxiang and Chu, Ringo SW and Stano, Jakub and Luk, Wayne},
+                  booktitle={International Symposium on Applied Reconfigurable Computing},
+                  pages={3--13},
+                  year={2020},
+                  organization={Springer, Cham},
+                  url = {https://link.springer.com/chapter/10.1007/978-3-030-44534-8_1},
+                  code={https://github.com/martinferianc/Improving_Per_Esti_for_FPGA-based_Acc_for_CNNs-ARC2020},
+                  media={https://www.ucl.ac.uk/electronic-electrical-engineering/news/2020/may/improving-performance-estimation-convolutional-neural-network-accelerators}
+                }
+                
+                @misc{ferianc2021vinnas,
+                  title={VINNAS: Variational Inference-based Neural Network Architecture Search}, 
+                  author={Martin Ferianc and Hongxiang Fan and Miguel Rodrigues},
                   year={2021},
-                  eprint={2104.06957},
+                  eprint={2007.06103},
                   archivePrefix={arXiv},
                   primaryClass={cs.LG},
-                  url={https://arxiv.org/pdf/2104.06957},
-                  code = {https://github.com/martinferianc/ComBiNet}
-                  }
-                @inproceedings{fan2018real,
-                    title={A Real-Time Object Detection Accelerator with Compressed SSDLite on FPGA},
-                    author={Fan, Hongxiang and Liu, Shuanglong and Ferianc, Martin and Ng, Ho-Cheung and Que, Zhiqiang and Liu, Shen and Niu, Xinyu and Luk, Wayne},
-                    booktitle={2018 International Conference on Field-Programmable Technology (FPT)},
-                    pages={14--21},
-                    year={2018},
-                    organization={IEEE},
-                    url={https://ieeexplore.ieee.org/document/8742299}
-                  }
-                  
-                  @inproceedings{fan2019f,
-                    title={F-E3D: FPGA-based acceleration of an efficient 3D convolutional neural network for human action recognition},
-                    author={Fan, Hongxiang and Luo, Cheng and Zeng, Chenglong and Ferianc, Martin and Que, Zhiqiang and Liu, Shuanglong and Niu, Xinyu and Luk, Wayne},
-                    booktitle={2019 IEEE 30th International Conference on Application-specific Systems, Architectures and Processors (ASAP)},
-                    volume={2160},
-                    pages={1--8},
-                    year={2019},
-                    organization={IEEE},
-                    url={https://ieeexplore.ieee.org/abstract/document/8825127},
-                    extra={Best Paper Award Nominee}
-                  }
-                  
-                  @article{fang2020real,
-                    title={Real-world experiences: Efficacy and tolerability of pirfenidone in clinical practice},
-                    author={Fang, Chuling and Huang, Hui and Guo, Jian and Ferianc, Martin and Xu, Zuojun},
-                    journal={Plos one},
-                    volume={15},
-                    number={1},
-                    pages={e0228390},
-                    year={2020},
-                    publisher={Public Library of Science San Francisco, CA USA},
-                    url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228390}
-                  }
-                  
-                  @inproceedings{fan2019static,
-                    title={Static block floating-point quantization for convolutional neural networks on fpga},
-                    author={Fan, Hongxiang and Wang, Gang and Ferianc, Martin and Niu, Xinyu and Luk, Wayne},
-                    booktitle={2019 International Conference on Field-Programmable Technology (ICFPT)},
-                    pages={28--35},
-                    year={2019},
-                    organization={IEEE},
-                    url={https://ieeexplore.ieee.org/abstract/document/8977902},
-                    code={https://github.com/os-hxfan/Static_BFP_CNN},
-                    extra={Best Paper Award Nominee}
-                  }
-                  
-                  @inproceedings{ferianc2020improving,
-                    title={Improving Performance Estimation for FPGA-Based Accelerators for Convolutional Neural Networks},
-                    author={Ferianc, Martin and Fan, Hongxiang and Chu, Ringo SW and Stano, Jakub and Luk, Wayne},
-                    booktitle={International Symposium on Applied Reconfigurable Computing},
-                    pages={3--13},
-                    year={2020},
-                    organization={Springer, Cham},
-                    url = {https://link.springer.com/chapter/10.1007/978-3-030-44534-8_1},
-                    code={https://github.com/martinferianc/Improving_Per_Esti_for_FPGA-based_Acc_for_CNNs-ARC2020},
-                    media={https://www.ucl.ac.uk/electronic-electrical-engineering/news/2020/may/improving-performance-estimation-convolutional-neural-network-accelerators}
-                  }
-                  
-                  @article{fang2020relation,
-                    title={Relation between sex hormones and leucocyte telomere length in men with idiopathic pulmonary fibrosis},
-                    author={Fang, Chuling and Huang, Hui and Zhang, Qian and Wang, Na and Jing, Xiaoyan and Guo, Jian and Ferianc, Martin and Xu, Zuojun},
-                    journal={Respirology},
-                    year={2020},
-                    publisher={John Wiley \& Sons, Ltd},
-                    url={https://onlinelibrary.wiley.com/doi/abs/10.1111/resp.13871}
-                  }
-                  
-                  @misc{ferianc2021vinnas,
-                    title={VINNAS: Variational Inference-based Neural Network Architecture Search}, 
-                    author={Martin Ferianc and Hongxiang Fan and Miguel Rodrigues},
-                    year={2021},
-                    eprint={2007.06103},
-                    archivePrefix={arXiv},
-                    primaryClass={cs.LG},
-                    url = {https://arxiv.org/abs/2007.06103}
+                  url = {https://arxiv.org/abs/2007.06103}
+              }
+                @inproceedings{fan2020optimizing,
+                  title={Optimizing {FPGA}-Based {CNN} Accelerator Using Differentiable Neural Architecture Search},
+                  author={Fan, Hongxiang and Ferianc, Martin and Liu, Shuanglong and Que, Zhiqiang and Niu, Xinyu and Luk, Wayne},
+                  booktitle={2020 IEEE 38th International Conference on Computer Design (ICCD)},
+                  pages={465--468},
+                  year={2020},
+                  organization={IEEE},
+                  url = {https://ieeexplore.ieee.org/document/9283571}
                 }
-                  @inproceedings{fan2020optimizing,
-                    title={Optimizing FPGA-Based CNN Accelerator Using Differentiable Neural Architecture Search},
-                    author={Fan, Hongxiang and Ferianc, Martin and Liu, Shuanglong and Que, Zhiqiang and Niu, Xinyu and Luk, Wayne},
-                    booktitle={2020 IEEE 38th International Conference on Computer Design (ICCD)},
-                    pages={465--468},
-                    year={2020},
-                    organization={IEEE},
-                    url = {https://ieeexplore.ieee.org/document/9283571}
-                  }
-                  
-                  @article{chuling2021whole,
-                    title={Whole-exome sequencing identifies susceptibility genes and pathways for idiopathic pulmonary fibrosis in the Chinese population},
-                    author={Chuling, Fang and Huang, Hui and Yujia, Feng and Zhang, Qian and Wang, Na and Xiaoyan, Jing and Guo, Jian and Ferianc, Martin and Zuojun, Xu},
-                    journal={Scientific Reports},
-                    volume={11},
-                    number={1},
-                    year={2021},
-                    publisher={Nature Publishing Group},
-                    url={https://www.nature.com/articles/s41598-020-80944-4}
-                  }
-                  
-                  @article{liu2021toward,
-                    title={Toward Full-Stack Acceleration of Deep Convolutional Neural Networks on FPGAs},
-                    author={Liu, Shuanglong and Fan, Hongxiang and Ferianc, Martin and Niu, Xinyu and Shi, Huifeng and Luk, Wayne},
-                    journal={IEEE Transactions on Neural Networks and Learning Systems},
-                    year={2021},
-                    publisher={IEEE},
-                    url = {https://ieeexplore.ieee.org/iel7/5962385/6104215/09354062.pdf}
-                  }
-                  
-                  @misc{ferianc2021effects,
-                    title={On the Effects of Quantisation on Model Uncertainty in Bayesian Neural Networks}, 
-                    author={Martin Ferianc and Partha Maji and Matthew Mattina and Miguel Rodrigues},
-                    year={2021},
-                    eprint={2102.11062},
-                    archivePrefix={arXiv},
-                    primaryClass={cs.LG},
-                    url={https://arxiv.org/abs/2102.11062},
-                    code = {https://github.com/martinferianc/quantised-bayesian-nets}
-                    }
-                  
-                  @article{ferianc2021improving,
-                    title={Improving Performance Estimation for Design Space Exploration for Convolutional Neural Network Accelerators},
-                    author={Ferianc, Martin and Fan, Hongxiang and Manocha, Divyansh and Zhou, Hongyu and Liu, Shuanglong and Niu, Xinyu and Luk, Wayne},
-                    journal={Electronics},
-                    volume={10},
-                    number={4},
-                    pages={520},
-                    year={2021},
-                    url={https://www.mdpi.com/2079-9292/10/4/520},
-                    code={https://github.com/martinferianc/Improving_Per_Esti_for_FPGA-based_Acc_for_CNNs-ARC2020},
-                    publisher={Multidisciplinary Digital Publishing Institute}
+                
+                
+                @article{liu2021toward,
+                  title={Toward Full-Stack Acceleration of Deep Convolutional Neural Networks on {FPGA}s},
+                  author={Liu, Shuanglong and Fan, Hongxiang and Ferianc, Martin and Niu, Xinyu and Shi, Huifeng and Luk, Wayne},
+                  journal={IEEE Transactions on Neural Networks and Learning Systems},
+                  year={2021},
+                  publisher={IEEE},
+                  url = {https://ieeexplore.ieee.org/iel7/5962385/6104215/09354062.pdf}
+                }
+                @article{ferianc2021improving,
+                  title={Improving Performance Estimation for Design Space Exploration for Convolutional Neural Network Accelerators},
+                  author={Ferianc, Martin and Fan, Hongxiang and Manocha, Divyansh and Zhou, Hongyu and Liu, Shuanglong and Niu, Xinyu and Luk, Wayne},
+                  journal={Electronics},
+                  volume={10},
+                  number={4},
+                  pages={520},
+                  year={2021},
+                  url={https://www.mdpi.com/2079-9292/10/4/520},
+                  code={https://github.com/martinferianc/Improving_Per_Esti_for_FPGA-based_Acc_for_CNNs-ARC2020},
+                  publisher={Multidisciplinary Digital Publishing Institute}
+                }
+                
+                @misc{ferianc2021causal,
+                  title={On Causal Inference for Data-free Structured Pruning}, 
+                  author={Martin Ferianc and Anush Sankaran and Olivier Mastropietro and Ehsan Saboori and Quentin Cappart},
+                  year={2021},
+                  eprint={2112.10229},
+                  booktitle={The AAAI-22 Workshop on Information-Theoretic Methods for Causal Inference and Discovery},
+                  url = {https://arxiv.org/abs/2112.10229},
+                  archivePrefix={arXiv},
+                  primaryClass={cs.LG}
+                }
+                @InProceedings{9586137,
+                  author={Fan, Hongxiang and Ferianc, Martin and Rodrigues, Miguel and Zhou, Hongyu and Niu, Xinyu and Luk, Wayne},
+                  booktitle={2021 58th ACM/IEEE Design Automation Conference (DAC)}, 
+                  title={High-Performance {FPGA}-based Accelerator for {B}ayesian Neural Networks}, 
+                  year={2021},
+                  volume={},
+                  number={},
+                  pages={1063-1068},
+                  organization = {IEEE},
+                  doi={10.1109/DAC18074.2021.9586137},
+                  url = {https://arxiv.org/abs/2105.09163}
+              }
+                  @InProceedings{pmlr-v161-ferianc21a,
+                      title = 	 {On the effects of quantisation on model uncertainty in {B}ayesian neural networks},
+                      author =       {Ferianc, Martin and Maji, Partha and Mattina, Matthew and Rodrigues, Miguel},
+                      booktitle = 	 {Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence},
+                      pages = 	 {929--938},
+                      year = 	 {2021},
+                      editor = 	 {de Campos, Cassio and Maathuis, Marloes H.},
+                      volume = 	 {161},
+                      series = 	 {Proceedings of Machine Learning Research},
+                      month = 	 {27--30 Jul},
+                      organization =    {PMLR},
+                      pdf = 	 {https://proceedings.mlr.press/v161/ferianc21a/ferianc21a.pdf},
+                      url = 	 {https://proceedings.mlr.press/v161/ferianc21a.html},
+                      code = {https://github.com/martinferianc/quantised-bayesian-nets}
                   }
                 </textarea>
               <div class="bibtex_template">
