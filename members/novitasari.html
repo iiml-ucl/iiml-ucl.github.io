@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Maria Carolina Novitasari</h2>
-                    <h3>First-year PhD Student</h3>
+                    <h3>Second-year PhD Student</h3>
                     <hr>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                     <h4>Where to Find Me</h4>
                     <hr>
                     <address>
-                        Mallet Place Engineering Building
+                        Malet Place Engineering Building
                         <br>Torrington Place
                         <br>London WC1E 7JE
                         <br>United Kingdom
@@ -86,10 +86,100 @@
                     <p> Maria is a Marie Skłodowska-Curie PhD fellow at UCL working on algorithms for multimodal 
 						data-based inference and prediction for climate science applications under the supervision of Professor Miguel Rodrigues.
 						She obtained her master degree in computer science from National Taiwan University of Science 
-						and Technology in 2017 where her research revolved around the combination of active learning and periodicity analysis.
+						and Technology where her research revolved around the combination of active learning and periodicity analysis.
                     </p>
                     <h4>Publications</h4>
                     <hr>
+                <div class="row">
+				<div class="col-md-12">
+					<textarea id="bibtex_input" style="display:none;">
+					  @inproceedings{novitasari2021leveraging,
+						title={Leveraging Machine Learning to Predict the Autoconversion Rates from Satellite Data},
+						author={Novitasari, Maria C and Quaas, Johannes and Rodrigues, Miguel},
+						booktitle={NeurIPS 2021 Workshop on Tackling Climate Change with Machine Learning},
+						url={https://www.climatechange.ai/papers/neurips2021/59},
+						year={2021}
+						}
+
+					  @misc{10.1002/essoar.10509765.2,
+						author = {Watson-Parris, Duncan and Rao, Yuhan and Olivié, Dirk and Seland, Øyvind and Nowack, Peer J and Camps-Valls, Gustau and Stier, Philip and Bouabid, Shahine and Dewey, Maura and Fons, Emilie and et al.},
+						title = {ClimateBench: A benchmark dataset for data-driven climate projections},
+						journal = {Earth and Space Science Open Archive},
+						pages = {33},
+						year = {2021},
+						DOI = {10.1002/essoar.10509765.2},
+						url = {https://doi.org/10.1002/essoar.10509765.2},
+						abstract = {Many different emission pathways exist that are compatible with the Paris climate agreement, and many more are possible that miss that target. While some of the most complex Earth System Models have simulated a small selection of Shared Socioeconomic Pathways, it is impractical to use these expensive models to fully explore the space of possibilities. Such explorations therefore mostly rely on one-dimensional impulse response models, or simple pattern scaling approaches to approximate the physical climate response to a given scenario. Here we present ClimateBench - a benchmarking framework based on a suite of CMIP, AerChemMIP and DAMIP simulations performed by a full complexity Earth System Model, and a set of baseline machine learning models that emulate its response to a variety of forcers. These emulators can predict annual mean global distributions of temperature, diurnal temperature range and precipitation (including extreme precipitation) given a wide range of emissions and concentrations of carbon dioxide, methane and aerosols, allowing them to efficiently probe previously unexplored scenarios. We discuss the accuracy and interpretability of these emulators and consider their robustness to physical constraints such as total energy conservation. Future opportunities incorporating such physical constraints directly in the machine learning models and using the emulators for detection and attribution studies are also discussed. This opens a wide range of opportunities to improve prediction, consistency and mathematical tractability. We hope that by laying out the principles of climate model emulation with clear examples and metrics we encourage others to tackle this important and demanding challenge.}
+						}
+					</textarea>
+				  <div class="bibtex_template">
+				  <div class="if author">
+                  <span style="font-size:24px">•</span>
+                  <span class="if year">
+                    <span class="year"></span>
+                  </span>
+                  <span class="author"></span>
+
+                  <span class="if url" style="margin-left: 10px">
+                    <a class="url" style="color:blue;" target="_blank">[view online <i class="fas fa-file-pdf"></i>]</a>
+                  </span>
+                  <span class="if code">
+                    ,<a class="code" style="color:blue;" target="_blank">[view code <i class="fab fa-github"></i>]</a>
+                  </span>
+                </div>
+                <div>
+                  <span class="title" , style="font-weight: bold;"></span>
+                </div>
+                <div>
+                  <span class="if journal">
+                    <span class="journal" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if publisher">
+                    <span class="publisher" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if booktitle">
+                    <span class="booktitle" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if organization">
+                    <span class="organization" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if eprint">
+                    <span class="eprint" style="font-style:italic;"></span>
+                  </span>
+                </div>
+                <div></div>
+                <span class="if extra">
+                  <span class="extra" style="font-style:italic;font-weight: bold;"></span>
+                </span>
+                <span class="if media">
+                  , <a class="media" style="color:blue;" target="_blank">Media Coverage</a>
+                </span>
+                <div style="margin-bottom:10px;"></div>
+              </div>
+
+              <div class="bibtex_structure">
+                <div class="sections bibtextypekey">
+                  <div class="section inproceedings">
+                    <h2>Conference and Workshop Papers</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
+                  <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+                    <h2>Pre-prints and Other Publications</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group" style="margin-bottom:10px;">
+                <input type="text" class="bibtex_search form-control" id="searchbar"
+                  placeholder="Search publications, authors, venues">
+              </div>
+              <div id="bibtex_display"></div>
+            </div>
+          </div>
                 </div>
             </div>
         </div>
@@ -99,6 +189,7 @@
     <!-- Footer -->
     <div id="footer">
     </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
 </body>
 
