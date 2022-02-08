@@ -58,16 +58,42 @@
       <div class="col-md-6">
           <h4>Description</h4>
           <hr>
-          <p>This research project – a collaboration between data scientists and climate scientists – will
+		  
+          <p align="justify"> This research project – a collaboration between data scientists and climate scientists – will
             develop
             machine learning solutions to the analysis of the exploding amounts of climate data in order to
             deliver
             breakthroughs in climate research, whilst training the next generation of scientists.</p>
+			<p align="justify">
+			Climate change represents one of the most pressing challenges afflicting our societies, with governments worldwide, non-governmental organizations, 
+			and other stakeholders placing increasing emphasis on measures to successfully tackle and mitigate its adverse effects.
+			A pressing scientific hallenge relates to the need to understand aerosol-cloud interactions because these currently represent 
+			one of the major sources of uncertainty in determining the radiative forcing responsible for
+			climate change projections (Intergovernmental Panel on Climate Change 2021 - IPCC [2021]). 
+			One way of reducing the uncertainty involved in determining the radiative forcing of climate change is by understanding 
+			the interaction between aerosols, clouds, and precipitation processes. 
+			Understanding the complex interactions within the Earth (i.e., the interaction between aerosols, clouds, and precipitation) is possible through climate models. 
+			However, considering the complexity of the climate system, it is unfeasible to explain all processes occurring on Earth simultaneously. 
+			Climate models numerically solve the differential equations describing the fluid dynamics of the atmosphere and ocean on a discrete grid. 
+			Processes that are smaller than the grid-scale of the model cannot be solved directly and are thus poorly represented (IPCC [2021]). 
+			Therefore, in order to better represent small-scale processes in the atmosphere, there has been a shift towards developing high-resolution models with smaller grid cells. 
+			Newest developments allow for very-high-resolution simulations in realistic, weather prediction mode, albeit over limited spatial domains and for short time periods only. 
+			One of the high-resolution simulations that can be used to simulate small-scale processes in the atmosphere 
+			is the ICOsahedral Non-hydrostatic Large-Eddy Model (ICON-LEM) (Dipankar et al. [2015], Heinze et al. [2017]). 
+			However, due to the extremely high computational cost required, this simulation-based approach can only be run for a limited amount of time within a limited area. 
+			To address this, we developed new models using emerging machine learning approaches that leverage a plethora of satellite observations 
+			providing long-term global spatial coverage up to several decades. 
+			In particular, we developed machine learning models capable of capturing the key process of precipitation formation for liquid clouds, the autoconversion process. 
+			The term autoconversion is used to describe the collision and coalescence of cloud droplets responsible for raindrop formation. 
+			This process is a key in better understanding the response of clouds to anthropogenic aerosols (Mülmenstädt et al. [2020]). 
+			We validate the performance of our models against simulation data and then use our best model (DNN) to predict the autoconversion rates directly from satellite data. 
+			</p>
+		
           <h4>Partners</h4>
           <hr>
           <ul>
             <li>
-              <strong> European Commission </strong>
+              <strong> European Commission </strong> 
             </li>
           </ul>
           <h4>Funding</h4>
@@ -78,17 +104,99 @@
             alt=""></a>
           </div>
           <h4>Key Publications</h4>
+		                  <div class="row">
+				<div class="col-md-12">
+					<textarea id="bibtex_input" style="display:none;">
+					  @inproceedings{novitasari2021leveraging,
+						title={Leveraging Machine Learning to Predict the Autoconversion Rates from Satellite Data},
+						author={Novitasari, Maria C and Quaas, Johannes and Rodrigues, Miguel},
+						booktitle={NeurIPS 2021 Workshop on Tackling Climate Change with Machine Learning},
+						url={https://www.climatechange.ai/papers/neurips2021/59},
+						year={2021}
+						}
+
+					  @misc{10.1002/essoar.10509765.2,
+						author = {Watson-Parris, Duncan and Rao, Yuhan and Olivié, Dirk and Seland, Øyvind and Nowack, Peer J and Camps-Valls, Gustau and Stier, Philip and Bouabid, Shahine and Dewey, Maura and Fons, Emilie and et al.},
+						title = {ClimateBench: A benchmark dataset for data-driven climate projections},
+						journal = {Earth and Space Science Open Archive},
+						pages = {33},
+						year = {2021},
+						DOI = {10.1002/essoar.10509765.2},
+						url = {https://doi.org/10.1002/essoar.10509765.2},
+						abstract = {Many different emission pathways exist that are compatible with the Paris climate agreement, and many more are possible that miss that target. While some of the most complex Earth System Models have simulated a small selection of Shared Socioeconomic Pathways, it is impractical to use these expensive models to fully explore the space of possibilities. Such explorations therefore mostly rely on one-dimensional impulse response models, or simple pattern scaling approaches to approximate the physical climate response to a given scenario. Here we present ClimateBench - a benchmarking framework based on a suite of CMIP, AerChemMIP and DAMIP simulations performed by a full complexity Earth System Model, and a set of baseline machine learning models that emulate its response to a variety of forcers. These emulators can predict annual mean global distributions of temperature, diurnal temperature range and precipitation (including extreme precipitation) given a wide range of emissions and concentrations of carbon dioxide, methane and aerosols, allowing them to efficiently probe previously unexplored scenarios. We discuss the accuracy and interpretability of these emulators and consider their robustness to physical constraints such as total energy conservation. Future opportunities incorporating such physical constraints directly in the machine learning models and using the emulators for detection and attribution studies are also discussed. This opens a wide range of opportunities to improve prediction, consistency and mathematical tractability. We hope that by laying out the principles of climate model emulation with clear examples and metrics we encourage others to tackle this important and demanding challenge.}
+						}
+					</textarea>
+				  <div class="bibtex_template">
+				  <div class="if author">
+                  <span style="font-size:24px">•</span>
+                  <span class="if year">
+                    <span class="year"></span>
+                  </span>
+                  <span class="author"></span>
+
+                  <span class="if url" style="margin-left: 10px">
+                    <a class="url" style="color:blue;" target="_blank">[view online <i class="fas fa-file-pdf"></i>]</a>
+                  </span>
+                  <span class="if code">
+                    ,<a class="code" style="color:blue;" target="_blank">[view code <i class="fab fa-github"></i>]</a>
+                  </span>
+                </div>
+                <div>
+                  <span class="title" , style="font-weight: bold;"></span>
+                </div>
+                <div>
+                  <span class="if journal">
+                    <span class="journal" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if publisher">
+                    <span class="publisher" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if booktitle">
+                    <span class="booktitle" style="font-style:italic;"></span>,
+                  </span>
+                  <span class="if organization">
+                    <span class="organization" style="font-style:italic;"></span>
+                  </span>
+                  <span class="if eprint">
+                    <span class="eprint" style="font-style:italic;"></span>
+                  </span>
+                </div>
+                <div></div>
+                <span class="if extra">
+                  <span class="extra" style="font-style:italic;font-weight: bold;"></span>
+                </span>
+                <span class="if media">
+                  , <a class="media" style="color:blue;" target="_blank">Media Coverage</a>
+                </span>
+                <div style="margin-bottom:10px;"></div>
+              </div>
+
+              <div class="bibtex_structure">
+                <div class="sections bibtextypekey">
+                  <div class="section inproceedings">
+                    <h2>Conference and Workshop Papers</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
+                  <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+                    <h2>Pre-prints and Other Publications</h2>
+                    <div class="sort year" extra="ASC number">
+                      <div class="templates"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group" style="margin-bottom:10px;">
+                <input type="text" class="bibtex_search form-control" id="searchbar"
+                  placeholder="Search publications, authors, venues">
+              </div>
+              <div id="bibtex_display"></div>
+            </div>
+          </div>
+		  
           <hr>
           <ul>
-            <li>
-
-            </li>
-            <li>
-
-            </li>
-            <li>
-
-            </li>
 
           </ul>
         </div>
@@ -98,9 +206,10 @@
   </div>
   <!-- /.container -->
 
-  <!-- Footer -->
-  <div id="footer">
-  </div>
+<!-- Footer -->
+    <div id="footer">
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
 </body>
 
