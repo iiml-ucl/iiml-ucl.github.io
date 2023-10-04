@@ -48,7 +48,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h2>Maria Carolina Novitasari</h2>
-          <h3>Second-year PhD Student</h3>
+          <h3>Third-year PhD Student</h3>
           <hr>
         </div>
       </div>
@@ -83,13 +83,24 @@
           <p>Machine Learning and its applications, Deep Learning, Computer Vision, Active Learning</p>
           <h4>About</h4>
           <hr>
-          <p> Maria is a Marie Skłodowska-Curie PhD fellow at UCL working on algorithms for multimodal
+          <p> Maria is a Marie Skłodowska-Curie PhD fellow (<a href="https://imiracli.web.ox.ac.uk/" target="_blank">imiracli</a>) at UCL working on algorithms for multimodal
             data-based inference and prediction for climate science applications under the supervision of Professor
             Miguel Rodrigues.
             She obtained her master degree in computer science from National Taiwan University of Science
             and Technology where her research revolved around the combination of active learning and periodicity
             analysis.
           </p>
+		  <!div class="section achievements">
+		  <h2>Achievements (Awards)</h2>
+		  <ul>
+			<li><a href="https://www.ucl.ac.uk/electronic-electrical-engineering/news/2022/sep/eee-student-wins-doctoral-school-research-poster-competition">People's Choice Award winner of UCL Doctoral School Research Poster Competition (2023)</a></li>
+			<li><a href="https://imiracli.web.ox.ac.uk/article/poster-success-for-esr-maria">Finalist of the UCL EEE Department 'three-minute thesis' (3MT) competition (2023)</a></li>
+			<li><a href="https://www.ucl.ac.uk/iccs/news/2023/jun/iccs-researcher-awarded-doctoral-school-research-poster-competition">1st winner of UCL Doctoral School Research Poster Competition (2022)</a></li>
+			<!-- Add more achievements and awards as needed with corresponding links -->
+		  </ul>
+		  </div>
+
+
           <h4>Publications</h4>
           <hr>
           <div class="row">
@@ -103,8 +114,8 @@
 						year={2021}
 						}
 
-					  @misc{10.1002/essoar.10509765.2,
-						author = {Watson-Parris, Duncan and Rao, Yuhan and Olivié, Dirk and Seland, Øyvind and Nowack, Peer J and Camps-Valls, Gustau and Stier, Philip and Bouabid, Shahine and Dewey, Maura and Fons, Emilie and et al.},
+					  <!--@misc{10.1002/essoar.10509765.2,
+						author = {Watson-Parris, D. and Rao, Y. and Olivié, D. and Seland, Ø. and Nowack, P. and Camps-Valls, G. and Stier, P. and Bouabid, S. and Dewey, M. and Fons, E. and Gonzalez, J. and Harder, P. and Jeggle, K. and Lenhardt, J. and Manshausen, P. and Novitasari, M. and Ricard, L. and Roesch, C.},
 						title = {ClimateBench: A benchmark dataset for data-driven climate projections},
 						journal = {Earth and Space Science Open Archive},
 						pages = {33},
@@ -112,7 +123,32 @@
 						DOI = {10.1002/essoar.10509765.2},
 						url = {https://doi.org/10.1002/essoar.10509765.2},
 						abstract = {Many different emission pathways exist that are compatible with the Paris climate agreement, and many more are possible that miss that target. While some of the most complex Earth System Models have simulated a small selection of Shared Socioeconomic Pathways, it is impractical to use these expensive models to fully explore the space of possibilities. Such explorations therefore mostly rely on one-dimensional impulse response models, or simple pattern scaling approaches to approximate the physical climate response to a given scenario. Here we present ClimateBench - a benchmarking framework based on a suite of CMIP, AerChemMIP and DAMIP simulations performed by a full complexity Earth System Model, and a set of baseline machine learning models that emulate its response to a variety of forcers. These emulators can predict annual mean global distributions of temperature, diurnal temperature range and precipitation (including extreme precipitation) given a wide range of emissions and concentrations of carbon dioxide, methane and aerosols, allowing them to efficiently probe previously unexplored scenarios. We discuss the accuracy and interpretability of these emulators and consider their robustness to physical constraints such as total energy conservation. Future opportunities incorporating such physical constraints directly in the machine learning models and using the emulators for detection and attribution studies are also discussed. This opens a wide range of opportunities to improve prediction, consistency and mathematical tractability. We hope that by laying out the principles of climate model emulation with clear examples and metrics we encourage others to tackle this important and demanding challenge.}
-						}
+						}-->
+						
+					@inproceedings{novitasari2023estimating,
+					  title={Estimating the Autoconversion Rates from Satellite Data: Machine Learning-Based Approaches},
+					  author={Novitasari, Maria Carolina and Quaas, Johannes and Rodrigues, Miguel RD},
+					  booktitle={103rd AMS Annual Meeting},
+					  year={2023},
+					  organization={AMS}
+					}
+					@inproceedings{novitasarimachine,
+					  title={Machine Learning-Based Approaches to Predict the Autoconversion Rates from Satellite Data},
+					  author={Novitasari, Maria C and Quaas, Johannes and Rodrigues, Miguel RD},
+					  booktitle={ECMWF–ESA Workshop on Machine Learning for Earth Observation and Prediction},
+					  year={2022}
+					  organization={ECMWF-ESA}
+					}
+					@misc{watson2022climatebench,
+					  title={ClimateBench v1. 0: A Benchmark for Data-Driven Climate Projections},
+					  author = {Watson-Parris, D. and Rao, Y. and Olivié, D. and Seland, Ø. and Nowack, P. and Camps-Valls, G. and Stier, P. and Bouabid, S. and Dewey, M. and Fons, E. and Gonzalez, J. and Harder, P. and Jeggle, K. and Lenhardt, J. and Manshausen, P. and Novitasari, M. and Ricard, L. and Roesch, C.},
+					  journal={Journal of Advances in Modeling Earth Systems},
+					  volume={14},
+					  number={10},
+					  pages={e2021MS002954},
+					  year={2022},
+					  publisher={Wiley Online Library}
+					}
 					</textarea>
               <div class="bibtex_template">
                 <div class="if author">
@@ -161,6 +197,7 @@
 
               <div class="bibtex_structure">
                 <div class="sections bibtextypekey">
+		
                   <div class="section inproceedings">
                     <h2>Conference and Workshop Papers</h2>
                     <div class="sort year" extra="ASC number">
