@@ -48,7 +48,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h2>Maria Carolina Novitasari</h2>
-          <h3>Third-year PhD Student</h3>
+          <h3>PhD Graduate</h3>
           <hr>
         </div>
       </div>
@@ -83,7 +83,7 @@
           <p>Machine Learning and its applications, Deep Learning, Computer Vision, Active Learning</p>
           <h4>About</h4>
           <hr>
-          <p> Maria is a Marie Skłodowska-Curie PhD fellow (<a href="https://imiracli.web.ox.ac.uk/" target="_blank">imiracli</a>) at UCL working on algorithms for multimodal
+          <p> Maria was a Marie Skłodowska-Curie PhD fellow (<a href="https://imiracli.web.ox.ac.uk/" target="_blank">imiracli</a>) at UCL working on algorithms for multimodal
             data-based inference and prediction for climate science applications under the supervision of Professor
             Miguel Rodrigues.
             She obtained her master degree in computer science from National Taiwan University of Science
@@ -93,9 +93,13 @@
 		  <!--div class="section achievements"-->
 		  <h2>Achievements (Awards)</h2>
 		  <ul>
+			<li>
+1st Winner of Thesis on a Post(-It) Competition at the UCL Researcher Showcase 2024</a></li>
 			<li><a href="https://www.ucl.ac.uk/iccs/news/2023/jun/iccs-researcher-awarded-doctoral-school-research-poster-competition">People's Choice Award winner of UCL Doctoral School Research Poster Competition (2023)</a></li>
 			<li><a href="https://imiracli.web.ox.ac.uk/article/poster-success-for-esr-maria">Finalist of the UCL EEE Department 'three-minute thesis' (3MT) competition (2023)</a></li>
 			<li><a href="https://www.ucl.ac.uk/electronic-electrical-engineering/news/2022/sep/eee-student-wins-doctoral-school-research-poster-competition">1st winner of UCL Doctoral School Research Poster Competition (2022)</a></li>
+			<li>UCL Dean's Prize Awardee</a></li>
+			<li>Marie Skłodowska-Curie Fellow (among Europe's most competitive and prestigious research and innovation fellowships)</a></li>
 			<!-- Add more achievements and awards as needed with corresponding links -->
 		  </ul>
 		  <!--/div-->
@@ -106,19 +110,52 @@
           <div class="row">
             <div class="col-md-12">
               <textarea id="bibtex_input" style="display:none;">
-				  @inproceedings{novitasari2021leveraging,
-					title={Leveraging Machine Learning to Predict the Autoconversion Rates from Satellite Data},
-					author={Novitasari, Maria C and Quaas, Johannes and Rodrigues, Miguel},
-					booktitle={NeurIPS 2021 Workshop on Tackling Climate Change with Machine Learning},
-					url={https://www.climatechange.ai/papers/neurips2021/59},
-					year={2021}
+					@misc{Novitasari_Quaas_Rodrigues_2024b, 
+					 title={Cloudy with a chance of uncertainty: autoconversion rates forecasting via evidential regression from satellite data}, 
+					 volume={3}, 
+					 DOI={10.1017/eds.2024.37}, 
+					 journal={Environmental Data Science}, 
+					 author={Novitasari, Maria Carolina and Quaas, Johannes and Rodrigues, Miguel R. D.}, 
+					 year={2024}, 
+					 pages={e45},
+					 url = {http://doi.org/10.1017/eds.2024.37}} 
+					@misc{Novitasari_Quaas_Rodrigues_2024, 
+					 title={Cloudy with a chance of precision: satellite’s autoconversion rates forecasting powered by machine learning}, 
+					 volume={3}, 
+					 DOI={10.1017/eds.2024.24}, 
+					 journal={Environmental Data Science}, 
+					 author={Novitasari, Maria Carolina and Quaas, Johannes and Rodrigues, Miguel R. D.}, 
+					 year={2024}, 
+					 pages={e23},
+					 url = {http://doi.org/10.1017/eds.2024.24}} 
+					@InProceedings{pmlr-v238-novitasari24a,
+					  title = 	 {{ALAS}: Active Learning for Autoconversion Rates Prediction from Satellite Data},
+					  author =       {Novitasari, Maria C. and Quaas, Johannes and Rodrigues, Miguel},
+					  booktitle = 	 {Proceedings of The 27th International Conference on Artificial Intelligence and Statistics},
+					  pages = 	 {3358--3366},
+					  year = 	 {2024},
+					  editor = 	 {Dasgupta, Sanjoy and Mandt, Stephan and Li, Yingzhen},
+					  volume = 	 {238},
+					  series = 	 {Proceedings of Machine Learning Research},
+					  month = 	 {02--04 May},
+					  publisher =    {PMLR},
+					  pdf = 	 {https://proceedings.mlr.press/v238/novitasari24a/novitasari24a.pdf},
+					  url = 	 {https://proceedings.mlr.press/v238/novitasari24a.html},
+					  abstract = 	 {High-resolution simulations, such as the ICOsahedral Non-hydrostatic Large-Eddy Model (ICON-LEM), provide valuable insights into the complex interactions among aerosols, clouds, and precipitation, which are the major contributors to climate change uncertainty. However, due to their exorbitant computational costs, they can only be employed for a limited period and geographical area. To address this, we propose a more cost-effective method powered by an emerging machine learning approach to better understand the intricate dynamics of the climate system. Our approach involves active learning techniques by leveraging high-resolution climate simulation as an oracle that is queried based on an abundant amount of unlabeled data drawn from satellite observations. In particular, we aim to predict autoconversion rates, a crucial step in precipitation formation, while significantly reducing the need for a large number of labeled instances. In this study, we present novel methods: custom fusion query strategies for labeling instances – weight fusion (WiFi) and merge fusion (MeFi) – along with active feature selection based on SHAP. These methods are designed to tackle real-world challenges – in this case, climate change, with a specific focus on the prediction of autoconversion rates – due to their simplicity and practicality in application.}
 					}
-					@misc{watson2022climatebench,
-						author = {Watson-Parris, D. and Rao, Y. and Olivié, D. and Seland, Ø. and Nowack, P. and Camps-Valls, G. and Stier, P. and Bouabid, S. and Dewey, M. and Fons, E. and Gonzalez, J. and Harder, P. and Jeggle, K. and Lenhardt, J. and Manshausen, P. and Novitasari, M. and Ricard, L. and Roesch, C.},
-						title = {ClimateBench: A benchmark dataset for data-driven climate projections},
-						journal = {Journal of Advances in Modeling Earth Systems},
-						year = {2022},
-						url = {https://doi.org/10.1029/2021MS002954},
+					@inproceedings{novitasari2023alas,
+					  title={ALAS: Active Learning for Autoconversion Rates Prediction from Satellite Data},
+					  author={Novitasari, Maria C and Quaas, Johanness and Rodrigues, Miguel},
+					  booktitle={NeurIPS 2023 Workshop on Tackling Climate Change with Machine Learning},
+					  url={https://www.climatechange.ai/papers/neurips2023/80},
+					  year={2023}
+					}
+					@inproceedings{novitasari2023unleashing,
+					  title={Unleashing the Autoconversion Rates Forecasting: Evidential Regression from Satellite Data (Spotlight)},
+					  author={Novitasari, Maria C and Quaas, Johannes and Rodrigues, Miguel},
+					  booktitle={NeurIPS 2023 Workshop on Tackling Climate Change with Machine Learning},
+					  url={https://www.climatechange.ai/papers/neurips2023/44},
+					  year={2023}
 					}
 					@inproceedings{novitasari2023estimating,
 					  title={Estimating the Autoconversion Rates from Satellite Data: Machine Learning-Based Approaches},
@@ -128,6 +165,14 @@
 					  url={https://ams.confex.com/ams/103ANNUAL/meetingapp.cgi/Paper/419087},
 					  organization={AMS}
 					}
+					@misc{watson2022climatebench,
+						author = {Watson-Parris, D. and Rao, Y. and Olivié, D. and Seland, Ø. and Nowack, P. and Camps-Valls, G. and Stier, P. and Bouabid, S. and Dewey, M. and Fons, E. and Gonzalez, J. and Harder, P. and Jeggle, K. and Lenhardt, J. and Manshausen, P. and Novitasari, M. and Ricard, L. and Roesch, C.},
+						title = {ClimateBench: A benchmark dataset for data-driven climate projections},
+						journal = {Journal of Advances in Modeling Earth Systems},
+						year = {2022},
+						url = {https://doi.org/10.1029/2021MS002954},
+					}
+					
 					@inproceedings{novitasarimachine,
 					  title={Machine Learning-Based Approaches to Predict the Autoconversion Rates from Satellite Data},
 					  author={Novitasari, Maria C and Quaas, Johannes and Rodrigues, Miguel RD},
@@ -136,6 +181,14 @@
 					  url = {https://events.ecmwf.int/event/304/},
 					  organization={ECMWF-ESA}
 					}
+				  @inproceedings{novitasari2021leveraging,
+					title={Leveraging Machine Learning to Predict the Autoconversion Rates from Satellite Data},
+					author={Novitasari, Maria C and Quaas, Johannes and Rodrigues, Miguel},
+					booktitle={NeurIPS 2021 Workshop on Tackling Climate Change with Machine Learning},
+					url={https://www.climatechange.ai/papers/neurips2021/59},
+					year={2021}
+					}
+					
 				
 					
 					</textarea>
